@@ -1,0 +1,308 @@
+# Mortality Rate (Number of Deaths) Analysis
+
+
+```{r, include=FALSE}
+library(ggplot2)
+library(maps)
+library(choroplethr)
+library(choroplethrMaps)
+library(ggmap)
+library(countrycode)
+
+library(visdat)
+library(naniar)
+
+library(plotly)
+
+library(gganimate)    # To realize the animation
+library(maptools)     # world boundaries coordinates
+library(viridis)      # for a nice color palette
+library(rgeos)
+
+library(tmaptools)
+library(countrycode)
+library(sf)             # spatial data classes
+library(rnaturalearth)  # world map data
+library(readxl)         # reading excel files
+library(dplyr)          # data manipulation
+library(tidyr)          # data manipulation
+library(purrr)          # data manipulation
+library(cartogram)      # cartograms creation
+library(tmap)           # maps creation
+```
+
+
+```{r, comment=NA, echo=FALSE, message=FALSE, warning=FALSE}
+
+result <- data.frame(Year = as.numeric(),
+                     Total = as.numeric(),
+                     Country = as.character())
+
+readData <- function(countryCode, x)
+{
+  country = ""
+  
+  path = paste("Deaths_1x1/",as.character(countryCode),".Deaths_1x1.txt", sep="")
+  
+  con <- file(path, "r")
+  first_line <- readLines(con, n=1)
+  close(con)
+  
+  temp <- strsplit(first_line, ",")
+  country1 <- temp[[1]][1]
+  if(country1 == 'The United States of America'){
+    country <- 'united states of america'
+  }
+  else{
+    country <- country1
+  }
+  
+  deaths = read.delim(path,sep = "")
+  #deaths
+  
+  deaths <- deaths[,1:5]
+  #deaths
+  
+  colnames(deaths) <- c("Year", "Age", "Female", "Male", "Total")
+  
+  
+  deaths <- deaths[-c(1),]
+  deaths <- deaths[deaths$Age == 0,]
+  deaths <- deaths[,-c(2,3,4)]
+  
+  deaths['ISO3'] <- countrycode(country, "country.name", "iso3c")
+  
+  deaths$Total <- as.numeric(as.character(deaths$Total))
+  deaths$Year <- as.numeric(as.character(deaths$Year))
+  
+  return (deaths)
+  #ggplot(deaths, aes(x = Year, y = Total, group = 1)) + 
+  #  geom_line(color="red")
+}
+countries <- c('AUT', 'BEL', 'BGR', 'BLR', 'CAN', 'CHE', 'CHL', 'CZE', 'DEUTNP', 'DNK', 'ESP', 'EST', 'FIN', 'FRATNP', 'GRC', 'HKG', 'HRV', 'HUN', 'IRL', 'ISL', 'ISR', 'ITA', 'LTU', 'LUX', 'LVA', 'NLD', 'NOR', 'NZL_NP', 'POL', 'PRT', 'RUS', 'SVK', 'SVN', 'SWE', 'TWN', 'UKR','GBR_NP', 'AUS', 'USA', 'JPN', 'KOR')
+
+for(i in countries){
+  df <- readData(i)
+  result <- rbind(result, df)
+}
+
+years <- unique(result$Year)
+
+years <- sort(years)
+
+temp <- data.frame("ISO3" = as.character(countries))
+
+#temp
+country_year = data.frame("ISO3" = as.character(), "Year" = as.numeric())
+
+for(i in 1:nrow(temp)) {
+  for(j in 1:length(years)){
+    x = data.frame("ISO3" = temp[i,],"Year" = years[j])
+    country_year = rbind(country_year, x)
+  }
+}
+
+#result
+
+finalDf <- merge(x = country_year, y = result, by = c("ISO3", "Year"), all=TRUE)
+
+#finalDf
+
+```
+
+<p>
+First we start by understanding the overall trend of the data by plotting a line graph with the all the data we currently have with us. \
+
+The following is a line plot, with each line for a different country. x-axis has the year and y-axis has the number of deaths in that particular year. 
+</p>
+```{r, echo=FALSE, comment=NA, message=FALSE, warning=FALSE}
+
+plot_ly(finalDf, x = ~Year, y = ~Total, type = 'scatter', mode = 'lines', color = ~ISO3) %>%
+  layout(title = 'Total Number of Deaths over the years - countrywise',
+         xaxis = list(title = 'Years'),
+         yaxis = list (title = 'Number of deaths'))
+
+```
+<p>
+We can cleary see in this plot that the number of deaths in all parts of the world is decreasing. \
+
+Especially if we look at some European countries like France, Spain and Italy. We can see that the number of deaths has drastically decreased from the years 1850 to the current year. One of the reasons behind this could be the World Wars due to which a lot of lives were lost. \
+
+To understand if people are actually living longer or no, we analyse the data on Health Adjusted Life Expectancy in the next page. \
+
+After doing some more research on this topic, we found out more data on the United Nations website. We use this data to plot an animated cartogram and an animated choropleth of the entire world. \
+
+We have the data for 177 countries, over a time period of 1990 to 2020 (for the year 2020 they estimated the number of deaths). \
+</p>
+
+```{r readingExcel, echo=FALSE, comment=NA, message=FALSE, warning=FALSE}
+
+library(readxl)
+my_data <- read_excel("WPP2019_MORT_F03_1_DEATHS_BOTH_SEXES.xlsx")
+
+#my_data
+
+new_data <- my_data %>%
+  mutate(sov_a3 = countrycode(my_data$`Region, subregion, country or area *`, "country.name", "iso3c"))
+```
+<p>
+Before we jump into making the choropleths and cartograms, we would like to analyse the number of deaths by the economy and income group of the countries. Does the economy or income group of the country actually affect the deaths in that country? And has the pattern changed over the last 25 years? Lets see. 
+</p>
+
+```{r, echo=FALSE, comment=NA, message=FALSE, warning=FALSE}
+
+world_map = ne_countries(returnclass = "sf") 
+
+world_map_1 = world_map %>% 
+  dplyr::select(sov_a3, gdp_md_est, economy, income_grp) %>%  
+  st_transform(world_map, crs = "+proj=robin")
+
+world_data_new = left_join(world_map_1, new_data, by = "sov_a3") %>% 
+  dplyr::select(c("sov_a3","gdp_md_est", "economy", "income_grp", "1990-1995", "1995-2000", "2000-2005", "2005-2010", "2010-2015", "2015-2020")) %>% 
+  gather(key = "year", value = "deaths", c("1990-1995", "1995-2000", "2000-2005", "2005-2010", "2010-2015", "2015-2020"))
+
+
+ggplot(world_data_new, 
+       aes(x = world_data_new$income_grp, 
+           y = world_data_new$deaths, 
+           fill = world_data_new$income_grp)) + 
+  geom_col() +
+  facet_wrap(~year) +
+  coord_flip() +
+  scale_fill_viridis_d() +
+  labs(x = "Income Group of countries", y = "Number of Deaths", title="Number of Deaths by Income of the country") +
+  theme(legend.position = "none") 
+
+
+ggplot(world_data_new, 
+       aes(x = world_data_new$economy, 
+           y = world_data_new$deaths, 
+           fill = world_data_new$economy)) + 
+  geom_col() +
+  facet_wrap(~year) +
+  coord_flip() +
+  scale_fill_viridis_d() +
+  labs(x = "Economy", y = "Number of Deaths", title="Number of Deaths by Economy of the country") +
+  theme(legend.position = "none") 
+
+
+```
+<p>
+We can clearly see here, that the economy and income group of a country actually does affect the number of deaths in the country. This is not surprising as the healthcare facilities might not be as good in a still developing country as compared to a fully developed country. \
+
+But, what is surprising to see is that the pattern has not changed over the years. \
+
+In the past 25 years the pattern almost remains the same. \
+
+One possible explanation for this might be the actual population of the countries. As the total population of the countries is increasing, and the trend is that the population of developing countries is way higher than the developed ones. Due to a high population increase, the deaths also might have increased and the because of which we are not seeing any difference in the patterns here. \
+
+Nevertheless, lets go on and build our plots for some interesting spatial analysis. \
+</p>
+
+<h3>Spatial Analysis!</h3>
+```{r aniamtedChoropleth, echo=FALSE, comment=NA, message=FALSE, warning=FALSE}
+
+
+
+choropleth_data <- tidyr::gather(new_data, Year, value, -c("Index", "sov_a3", "Variant", "Region, subregion, country or area *", "Notes", "Country code", "Type", "Parent code"))
+
+data_low <- choropleth_data %>% dplyr::rename(region = `Region, subregion, country or area *`) %>% 
+  dplyr::mutate(region = tolower(region))
+
+choropleths_death = list()
+j=1
+
+years <- c("1990-1995", "1995-2000", "2000-2005", "2005-2010", "2010-2015", "2015-2020")
+
+data_2010_2015 <- subset(data_low,data_low$Year=="2010-2015")
+
+country_choropleth(data_2010_2015, title = "Choropleth: Number of Deaths between the years 2010-2015")
+
+#for (i in years) {
+#df           = data_low %>% filter(Year== i)
+#title        = paste0("Year: ",i)
+#choropleths_death[[j]] = country_choropleth(df, title=title)
+#j=j+1
+#}
+
+
+#setwd("~/numberOfDeathsAnimation")
+#choroplethr_animate(choropleths_death)
+
+# htmltools::includeHTML("animated_choropleth1.html")
+
+```
+
+```{r cartogram, echo=FALSE, comment=NA, message=FALSE, warning=FALSE}
+world_map = world_map %>% 
+  dplyr::select(sov_a3) %>%  
+  st_transform(world_map, crs = "+proj=robin")
+
+#if(!dir.exists("data")) dir.create("data")
+#download.file("http://gapm.io/dl_pop", destfile = "data/pop1800_2100.xlsx")
+#world_pop = read_xlsx("data/pop1800_2100.xlsx", sheet = 7)
+
+cols_data <- c("Index", "Variant", "Region, subregion, country or area *", "Notes", "Country code", "Type", "Parent code")
+
+world_data = left_join(world_map, new_data, by = "sov_a3") %>% 
+  dplyr::select(-cols_data) %>% 
+  tidyr::gather(key = "year", value = "deaths", c("1990-1995", "1995-2000", "2000-2005", "2005-2010", "2010-2015", "2015-2020"))
+
+world_data <- world_data[,-c(2:9)]
+
+world_data = world_data %>% 
+  group_by(year) %>% 
+  mutate(total_deaths = sum(as.numeric(deaths), na.rm = TRUE)) %>% 
+  mutate(title = paste0("Year: ", year, "\nTotal Death (mln): ", round(total_deaths/1e6, 2)))
+
+world_data_2010_2015 = world_data %>%
+  filter(year == "2010-2015")
+world_carto1 = cartogram_cont(world_data_2010_2015, "deaths", maxSizeError = 1.5)
+plot(world_carto1["deaths"], main = "Cartogram: Number of Deaths between the years 2010-2015")
+
+```
+
+```{r, echo=FALSE, comment=NA, message=FALSE, warning=FALSE}
+
+# warning: this may make your computer's fan spin!
+world_data_carto = world_data %>% 
+  split(.$year) %>%
+  map(cartogram_cont, "deaths", maxSizeError = 1.5) %>% 
+  do.call(rbind, .)
+
+```
+
+```{r, echo=FALSE, comment=NA, message=FALSE, warning=FALSE}
+# library(magick)
+
+carto_anim = tm_shape(world_data_carto) +
+  tm_polygons("deaths", title = "Deaths: ") +
+  tm_facets(along = "title", free.coords = FALSE, drop.units = TRUE)
+
+# tmap_animation(carto_anim, filename = "deaths.gif", delay = 75,
+#                width = 1326, height = 942)
+
+```
+<p>
+These are some static plots we made to understand the current situation of mortality in the world. \
+
+But wouldn't it be great to see an animated plot, where the number of deaths in each country is changing as the years pass by. \
+
+Lets see how that would look next and also if we can gain some interesting insights from them! \
+</p>
+
+```{r, echo=FALSE, comment=NA, message=FALSE, warning=FALSE}
+htmltools::tags$iframe(title = "Embedded HTML", src = "animated_choropleth1.html", height=500, width=800)
+```
+
+```{r, fig.show='animate', dev='jpeg', ffmpeg.format='gif', echo=FALSE, comment=NA, message=FALSE, warning=FALSE}
+carto_anim
+```
+<p>
+Here we can clearly see that the total number of deaths in the world are mainly in the asian countries like India, China and some african countries. \
+
+The main reason behind this could be because of the huge population of these countries. \
+Nevertheless, we can see some changes in the cartogram, which means that the number of deaths is decreasing slightly as time progresses. \
+
+Next we can also see that the number of deaths in asian countries actually increases as their sizes in the cartogram increases as time progresses. This could be the case as the total population of those countries actually increased in from 1990 to 2019. \
+</p>

@@ -1,0 +1,43 @@
+--- 
+title: "Mortality Analysis"
+author: "Prasham Sheth | Pritam Biswas | Manas Dresswala | Swarna Bharati Mantena"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+---
+
+# Introduction
+
+<h1>DO YOU KNOW?</h1> 
+<p>
+The death rate is 7.7 deaths/1,000 population (2018 est.) on average across the world. This rate results in about 108 worldwide deaths per minute or 1.8 deaths every second. \
+
+Bulgaria has the highest death rate of 15.3 deaths/1,000 population and Qatar has the least death rate of 1.53 deaths/1,000 population. 
+</p>
+<h2>Does this little information bring up questions in your head?</h2>
+
+<h2>YES?</h2> 
+<p>
+It did for us too. These are some of the questions that we came up with: \
+What about the other countries? How many people die there on average? \
+How does the number of deaths vary across different countries?
+Do we see any pattern among deaths between developed and under-developed/developing countries? 
+What are the main causes of death? What are the statistics corresponding to this? \
+What about child mortality? How are the statistics in case of childeren (aged less than 5 years)? 
+How do the statistics vary in different age groups and on sex? 
+
+With a bunch of these questions that are quite interesting, we decided that this would be our project.
+</p>
+<h1>WHAT DO WE WANT TO DO?</h1> 
+
+We picked the three most interesting questions that struck our minds when we started exploring the data on this topic.
+
+<h2>The three interesting questions!</h2> 
+<p>
+a) Understand the child mortality accross the countries in the world. Is the child mortality count coming down? If yes, why did that happen? \
+
+b) We know that in today’s world there has been a tremendous advancement in healthcare. Does the life expectancy of a human increase now? Did the number of deaths actually come down because of that? Or is there any other reason for the mortality rate of a country? \
+
+c) Lastly, we would like to understand the mortality rates of people of different ages. Is there some difference in the causes of death? Are there any patterns here? Are there some differences in the causes of death when compared location wise? \
+
+Let us now get to other sections of this book that will help you understand better how we proceeded on working on this project.
+</p>

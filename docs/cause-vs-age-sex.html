@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>7 Cause vs (Age &amp; Sex) | Mortality Analysis</title>
+  <meta name="description" content="7 Cause vs (Age &amp; Sex) | Mortality Analysis" />
+  <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="7 Cause vs (Age &amp; Sex) | Mortality Analysis" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="7 Cause vs (Age &amp; Sex) | Mortality Analysis" />
+  
+  
+  
+
+<meta name="author" content="Prasham Sheth | Pritam Biswas | Manas Dresswala | Swarna Bharati Mantena" />
+
+
+<meta name="date" content="2019-12-12" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="health-adjusted-life-expectancy-hale.html"/>
+<link rel="next" href="conclusion.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<script src="libs/plotly-binding-4.9.0/plotly.js"></script>
+<script src="libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+<link href="libs/plotly-htmlwidgets-css-1.46.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="libs/plotly-main-1.46.1/plotly-latest.min.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Mortality Analysis</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="data-and-information-sources.html"><a href="data-and-information-sources.html"><i class="fa fa-check"></i><b>2</b> Data and Information sources</a></li>
+<li class="chapter" data-level="3" data-path="missing-data.html"><a href="missing-data.html"><i class="fa fa-check"></i><b>3</b> Missing Data</a></li>
+<li class="chapter" data-level="4" data-path="child-mortality-analysis.html"><a href="child-mortality-analysis.html"><i class="fa fa-check"></i><b>4</b> Child Mortality Analysis</a></li>
+<li class="chapter" data-level="5" data-path="mortality-rate-number-of-deaths-analysis.html"><a href="mortality-rate-number-of-deaths-analysis.html"><i class="fa fa-check"></i><b>5</b> Mortality Rate (Number of Deaths) Analysis</a></li>
+<li class="chapter" data-level="6" data-path="health-adjusted-life-expectancy-hale.html"><a href="health-adjusted-life-expectancy-hale.html"><i class="fa fa-check"></i><b>6</b> Health Adjusted Life Expectancy (HALE)</a></li>
+<li class="chapter" data-level="7" data-path="cause-vs-age-sex.html"><a href="cause-vs-age-sex.html"><i class="fa fa-check"></i><b>7</b> Cause vs (Age &amp; Sex)</a></li>
+<li class="chapter" data-level="8" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>8</b> Conclusion</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Mortality Analysis</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="cause-vs-age-sex" class="section level1">
+<h1 number="7"><span class="header-section-number">7</span> Cause vs (Age &amp; Sex)</h1>
+<p>
+To understand the mortality rates of the people of different age groups, we downloaded datasets from the website <a href="http://ghdx.healthdata.org/gbd-results-tool" class="uri">http://ghdx.healthdata.org/gbd-results-tool</a> and then plotted the basic plots relating the number of deaths to different age groups and sex.<br />
+As the ages were grouped this way in the actual dataset source, we preferred to take it this way. There is no particular reason for choosing unequal intervals of age.<br />
+The plots and information stated corresponds to data collectced from the year 1990 to 2016. Also, wherever average is mentioned, it is an average taken per annum from 1990 to 2017.
+</p>
+<h3>
+Reading data and forming dataframes
+</h3>
+<h3>
+Lets start plotting!
+</h3>
+<div id="htmlwidget-0c486ea3032de1d6879e" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-0c486ea3032de1d6879e">{"x":{"visdat":{"8984c091c73":["function () ","plotlyVisDat"]},"cur_data":"8984c091c73","attrs":{"8984c091c73":{"x":["<1 year","1-4 years","5-14 years","15-49 years","50-69 years","70+ years"],"y":[31469.0671297423,13130.6293303138,5471.33772454656,42030.1312915605,63040.517782756,106059.580193441],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Avg. no. of deaths vs Age group","xaxis":{"domain":[0,1],"automargin":true,"title":"Age Groups","zeroline":false,"type":"category","categoryorder":"array","categoryarray":["<1 year","1-4 years","5-14 years","15-49 years","50-69 years","70+ years"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Avg. no. of deaths","zeroline":false},"font":{"family":"Times New Roman","size":12},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false},"data":[{"x":["<1 year","1-4 years","5-14 years","15-49 years","50-69 years","70+ years"],"y":[31469.0671297423,13130.6293303138,5471.33772454656,42030.1312915605,63040.517782756,106059.580193441],"type":"bar","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p>
+From the plot, we see that the average number of deaths in the age group 70+ years is maximum and the average number of deaths in the age group 5-14 years is minimum. Also, it is interesting to see that the average number of deaths in the age groups 1-4 and 5-14 are less that the average number of deaths in age groups &lt;1 year and 15-49 years. Overall, the average number of deaths decrease till 5-14 years age group and then increases.<br />
+Why are the values as shown? What are the major causes of death? How do deaths due to various causes vary with age? These are the questions we wish to answer on further exploring and visualizing the dataset.<br />
+
+</p>
+<p>
+Let us take a look at the causes of deaths (mentioned in the dataset).
+</p>
+<div id="htmlwidget-ca0256248582afeaeac2" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-ca0256248582afeaeac2">{"x":{"visdat":{"898656c148b":["function () ","plotlyVisDat"]},"cur_data":"898656c148b","attrs":{"898656c148b":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Causes of death vs Average nunber of deaths","xaxis":{"domain":[0,1],"automargin":true,"title":"Average number of deaths","zeroline":false,"family":"times new roman"},"yaxis":{"domain":[0,1],"automargin":true,"title":"Causes of death","zeroline":false,"family":"times new roman","categoryorder":"array","categoryarray":["Mental disorders","Skin and subcutaneous diseases","Musculoskeletal disorders","Substance use disorders","Nutritional deficiencies","Neglected tropical diseases and malaria","Other non-communicable diseases","Self-harm and interpersonal violence","Transport injuries","Other infectious diseases","HIV/AIDS and sexually transmitted infections","Unintentional injuries","Diabetes and kidney diseases","Digestive diseases","Neurological disorders","Enteric infections","Maternal and neonatal disorders","Chronic respiratory diseases","Respiratory infections and tuberculosis","Neoplasms","Cardiovascular diseases"],"type":"category"},"font":{"family":"Times New Roman","size":12},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false},"data":[{"x":[0.670443266325865,171.872677038096,227.083981597558,703.475128710737,1108.71498109499,2462.30541125909,3005.34542353859,3410.66262747396,3438.51345465496,3583.51198466448,3719.57694455118,4672.94599546997,4702.65408536632,5140.24882620325,5291.12621668865,5836.30494768443,7716.71248360071,9029.98504560396,11175.0050025024,18902.385162935,36997.0114745474],"y":["Mental disorders","Skin and subcutaneous diseases","Musculoskeletal disorders","Substance use disorders","Nutritional deficiencies","Neglected tropical diseases and malaria","Other non-communicable diseases","Self-harm and interpersonal violence","Transport injuries","Other infectious diseases","HIV/AIDS and sexually transmitted infections","Unintentional injuries","Diabetes and kidney diseases","Digestive diseases","Neurological disorders","Enteric infections","Maternal and neonatal disorders","Chronic respiratory diseases","Respiratory infections and tuberculosis","Neoplasms","Cardiovascular diseases"],"type":"bar","orientation":"h","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p>
+<p>This plot shows the causes of deaths vs average number of deaths. As we see, mental disorders cause the least number of deaths while cardiovascular diseases cause the maximum number of deaths.<br />
+The causes of death can be divided into three categories as follows: 1. injuries, 2. Communicable, maternal, neonatal, and nutritional diseases, and 3. Non-communicable diseases. Let us compare the number of deaths caused by each of these categories for the age groups.<br />
+</p>
+In this analysis, let us first check the deaths due to injuries of each age group.
+</p>
+<h3>
+Injuries
+</h3>
+<div id="htmlwidget-be13b2a579fe5665ac9a" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-be13b2a579fe5665ac9a">{"x":{"visdat":{"8983da06f43":["function () ","plotlyVisDat"]},"cur_data":"8983da06f43","attrs":{"8983da06f43":{"x":["<1 year","1-4 years","5-14 years","15-49 years","50-69 years","70+ years"],"y":[363.05412880868,754.994306236549,812.616303792165,5749.06060134552,2129.01534607293,1713.38139134305],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Avg. no. of deaths due to injuries vs Age group","xaxis":{"domain":[0,1],"automargin":true,"title":"Age Groups","zeroline":false,"type":"category","categoryorder":"array","categoryarray":["<1 year","1-4 years","5-14 years","15-49 years","50-69 years","70+ years"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Avg. no. of deaths due to injuries","zeroline":false},"font":{"family":"Times New Roman","size":12},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false},"data":[{"x":["<1 year","1-4 years","5-14 years","15-49 years","50-69 years","70+ years"],"y":[363.05412880868,754.994306236549,812.616303792165,5749.06060134552,2129.01534607293,1713.38139134305],"type":"bar","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p>
+From this graph, we can see that more number of deaths due to injuries are in the 15-49 years age group. It seems a little natural that this number would be high because the width of this age group is high. Now, let us dive into what the specific causes were, under this subgroup of injuries.
+</p>
+<div id="htmlwidget-52ac4e51cc2f32433407" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-52ac4e51cc2f32433407">{"x":{"visdat":{"89836003ed":["function () ","plotlyVisDat"]},"cur_data":"89836003ed","attrs":{"89836003ed":{"x":{},"y":{},"color":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Avg. no. of deaths due to injuries vs Age","xaxis":{"domain":[0,1],"automargin":true,"title":"Age Groups","zeroline":false,"type":"category","categoryorder":"array","categoryarray":["<1 year","1-4 years","5-14 years","15-49 years","50-69 years","70+ years"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Avg. no. of deaths due to injuries","zeroline":false},"font":{"family":"Times New Roman","size":12},"hovermode":"closest","showlegend":true},"source":"A","config":{"showSendToCloud":false},"data":[{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[28.1595320998116,55.0005827772369,2300.17691740042,104.334960368022,626.033676330887,296.956958497583],"type":"bar","name":"Self-harm and interpersonal violence","marker":{"color":"rgba(102,194,165,1)","line":{"color":"rgba(102,194,165,1)"}},"textfont":{"color":"rgba(102,194,165,1)"},"error_y":{"color":"rgba(102,194,165,1)"},"error_x":{"color":"rgba(102,194,165,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[53.8379148725078,163.415993858692,1988.15459043726,246.943943984433,665.833754444971,320.327257057094],"type":"bar","name":"Transport injuries","marker":{"color":"rgba(252,141,98,1)","line":{"color":"rgba(252,141,98,1)"}},"textfont":{"color":"rgba(252,141,98,1)"},"error_y":{"color":"rgba(252,141,98,1)"},"error_x":{"color":"rgba(252,141,98,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[281.056681836361,536.577729600621,1460.72909350783,461.33739943971,837.14791529707,1096.09717578837],"type":"bar","name":"Unintentional injuries","marker":{"color":"rgba(141,160,203,1)","line":{"color":"rgba(141,160,203,1)"}},"textfont":{"color":"rgba(141,160,203,1)"},"error_y":{"color":"rgba(141,160,203,1)"},"error_x":{"color":"rgba(141,160,203,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p>
+<p>This plot reveals a lot of information. Check the first three age groups. The people in these age groups and this category of causes of death (injuries) mostly died because of unintentional injuries. The common unintensional injuries include drowning, falls, poisoning, etc. As kids do not know how to handle the situations at their age, there are more chances of them losing life due to unintentional injuries as shown in the plot. Also, self-harm and interpersonal violence are very less in these three age groups. I think one of the most important reason for that is that people usually remain carefree during this age. They usually do not have any real life worries in life.<br />
+In contrast, the number of deaths due to self-harm and interpersonal violence is most in the age group of 15-49 years (middle-age group). The stress levels are pretty high in this age group. The reasons can be many ranging from financial problems to heart breaks.<br />
+In all the age groups, the average number of deaths due to self-harm and interpersoanl violence is less than the other two causes except for the age group 15-49 years.<br />
+</p>
+Following is a mosaic plot that gives the information of the same data in relative fashion. Here, we do not know the actual values by observing the plot alone. So, bar graph using plotly seem to be a better option than mosaic plots.
+</p>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-37-1.png" width="1152" /></p>
+<h3>
+Communicable, maternal, neonatal, and nutritional diseases
+</h3>
+<div id="htmlwidget-5db7ee9642ed7f86cebe" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5db7ee9642ed7f86cebe">{"x":{"visdat":{"8981ec540cd":["function () ","plotlyVisDat"]},"cur_data":"8981ec540cd","attrs":{"8981ec540cd":{"x":["<1 year","1-4 years","5-14 years","15-49 years","50-69 years","70+ years"],"y":[13552.2898383566,5140.99319529403,1380.01332516016,6935.90343684296,3737.14060012104,4855.79135958255],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Avg. no. of deaths due to communicable diseases vs Age group","xaxis":{"domain":[0,1],"automargin":true,"title":"Age Groups","zeroline":false,"type":"category","categoryorder":"array","categoryarray":["<1 year","1-4 years","5-14 years","15-49 years","50-69 years","70+ years"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Avg. no. of deaths due to communicable diseases","zeroline":false},"font":{"family":"Times New Roman","size":12},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false},"data":[{"x":["<1 year","1-4 years","5-14 years","15-49 years","50-69 years","70+ years"],"y":[13552.2898383566,5140.99319529403,1380.01332516016,6935.90343684296,3737.14060012104,4855.79135958255],"type":"bar","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p>
+From this graph, we can see that maximum average number of deaths in this category are in the age group of &lt;1 year and the minimum average number of deaths are in the age group 4-15 years. Let us explore further on what this category of causes includes and how each of the causes is responsible for deaths.
+</p>
+<div id="htmlwidget-a0d442c8ad0643d725fe" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-a0d442c8ad0643d725fe">{"x":{"visdat":{"89810c31e92":["function () ","plotlyVisDat"]},"cur_data":"89810c31e92","attrs":{"89810c31e92":{"x":{},"y":{},"color":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Avg. no. of deaths due to communicable diseases vs Age","xaxis":{"domain":[0,1],"automargin":true,"title":"Age Groups","zeroline":false,"family":"times new roman","type":"category","categoryorder":"array","categoryarray":["<1 year","1-4 years","5-14 years","15-49 years","50-69 years","70+ years"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Avg. no. of deaths communicable diseases","zeroline":false,"family":"times new roman"},"font":{"family":"Times New Roman","size":12},"hovermode":"closest","showlegend":true},"source":"A","config":{"showSendToCloud":false},"data":[{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[1592.84026624661,1290.34537941788,556.593185383832,426.102255199815,635.08481533347,1335.33904610282],"type":"bar","name":"Enteric infections","marker":{"color":"rgba(102,194,165,1)","line":{"color":"rgba(102,194,165,1)"}},"textfont":{"color":"rgba(102,194,165,1)"},"error_y":{"color":"rgba(102,194,165,1)"},"error_x":{"color":"rgba(102,194,165,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[584.520905828615,177.142650004157,2380.56226735616,89.6339898408224,435.887281887895,51.8298496335298],"type":"bar","name":"HIV/AIDS and sexually transmitted infections","marker":{"color":"rgba(252,141,98,1)","line":{"color":"rgba(252,141,98,1)"}},"textfont":{"color":"rgba(252,141,98,1)"},"error_y":{"color":"rgba(252,141,98,1)"},"error_x":{"color":"rgba(252,141,98,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years"],"y":[6302.1838279733,23.5675110835668,1376.61984951491,5.20947993725675,9.13181509167139],"type":"bar","name":"Maternal and neonatal disorders","marker":{"color":"rgba(141,160,203,1)","line":{"color":"rgba(141,160,203,1)"}},"textfont":{"color":"rgba(141,160,203,1)"},"error_y":{"color":"rgba(141,160,203,1)"},"error_x":{"color":"rgba(141,160,203,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[521.672602333037,919.795394849834,410.47589332512,256.203747793512,237.568261939619,116.589511017971],"type":"bar","name":"Neglected tropical diseases and malaria","marker":{"color":"rgba(231,138,195,1)","line":{"color":"rgba(231,138,195,1)"}},"textfont":{"color":"rgba(231,138,195,1)"},"error_y":{"color":"rgba(231,138,195,1)"},"error_x":{"color":"rgba(231,138,195,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[381.794749816388,376.485537187139,58.4319994166132,43.6392306050472,80.1050741784396,168.258389891361],"type":"bar","name":"Nutritional deficiencies","marker":{"color":"rgba(166,216,84,1)","line":{"color":"rgba(166,216,84,1)"}},"textfont":{"color":"rgba(166,216,84,1)"},"error_y":{"color":"rgba(166,216,84,1)"},"error_x":{"color":"rgba(166,216,84,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[1163.54269329792,1169.85732988901,447.150543561063,316.444239126965,270.495740333975,216.021438455542],"type":"bar","name":"Other infectious diseases","marker":{"color":"rgba(255,217,47,1)","line":{"color":"rgba(255,217,47,1)"}},"textfont":{"color":"rgba(255,217,47,1)"},"error_y":{"color":"rgba(255,217,47,1)"},"error_x":{"color":"rgba(255,217,47,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[3005.7347928607,1183.79939286244,1706.06969828526,242.780382656739,2068.86761135597,2967.75312448133],"type":"bar","name":"Respiratory infections and tuberculosis","marker":{"color":"rgba(229,196,148,1)","line":{"color":"rgba(229,196,148,1)"}},"textfont":{"color":"rgba(229,196,148,1)"},"error_y":{"color":"rgba(229,196,148,1)"},"error_x":{"color":"rgba(229,196,148,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p>
+<p>In the age group &lt;1 year, the one cause that is responsible for maximum number of deaths is ‘Maternal and neonatal disorders’. This cause is prominnant only inn two age groups &lt;1 year and 15-49 years. In all other age groups, the average number of deaths due to this is negligible. The age group 15-49 has the maximum average number of deaths dur to ‘HIV/AIDS and sexually transmitted infections’. In all the age groups, ‘Respiratory infections and tuberculosis’ seems to be one the main reasons of deaths under this category causes of deaths.<br />
+</p>
+Again, following is the mosaic plot that gives us the information about the data in relative sense. Similar to the previous mosaic plot, we do not get to know the true values from mosaic plots. Also, as the set of boxes representing same cause do not start at the same point, it gets difficult to compare too. In addition, it also gets difficult as the number of causes increase. So, we will no longer check the mosaic plots for our graphs when the number of causes are high.
+</p>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-40-1.png" width="1152" /></p>
+<h3>
+Non Communicable diseases
+</h3>
+<div id="htmlwidget-88a930db244e2794310a" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-88a930db244e2794310a">{"x":{"visdat":{"898238935aa":["function () ","plotlyVisDat"]},"cur_data":"898238935aa","attrs":{"898238935aa":{"x":["<1 year","1-4 years","5-14 years","15-49 years","50-69 years","70+ years"],"y":[1819.18959770589,669.327163626308,545.643973289588,9018.41153234925,25658.6688527298,46460.617345795],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Avg. no. of deaths due to non-communicable diseases vs Age group","xaxis":{"domain":[0,1],"automargin":true,"title":"Age Groups","zeroline":false,"type":"category","categoryorder":"array","categoryarray":["<1 year","1-4 years","5-14 years","15-49 years","50-69 years","70+ years"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Avg. no. of deaths due to non-communicable diseases","zeroline":false},"font":{"family":"Times New Roman","size":12},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false},"data":[{"x":["<1 year","1-4 years","5-14 years","15-49 years","50-69 years","70+ years"],"y":[1819.18959770589,669.327163626308,545.643973289588,9018.41153234925,25658.6688527298,46460.617345795],"type":"bar","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p>
+The trend in the plot is similar to the trend in the first plot. The average number of deaths decrease till the 5-14 years age group and then increases. The increase observed is very steep. The average number of deaths in the age group 70+ years is more than the sum of the average number of deaths of all other age groups under this category of causes of deaths. Let us explore further on what were the main causes under this category.
+</p>
+<div id="htmlwidget-1d39fe1ec593220f2db4" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1d39fe1ec593220f2db4">{"x":{"visdat":{"8985cc45ef2":["function () ","plotlyVisDat"]},"cur_data":"8985cc45ef2","attrs":{"8985cc45ef2":{"x":{},"y":{},"color":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Avg. no. of deaths due to non-communicable diseases vs Age","xaxis":{"domain":[0,1],"automargin":true,"title":"Age Groups","zeroline":false,"family":"times new roman","type":"category","categoryorder":"array","categoryarray":["<1 year","1-4 years","5-14 years","15-49 years","50-69 years","70+ years"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Avg. no. of deaths non-communicable diseases","zeroline":false,"family":"times new roman"},"font":{"family":"Times New Roman","size":12},"hovermode":"closest","showlegend":true},"source":"A","config":{"showSendToCloud":false},"data":[{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[78.0437346586403,49.2386746573078,3113.14432764784,58.0015755700277,10869.1045347047,22829.4786273089],"type":"bar","name":"Cardiovascular diseases","marker":{"color":"rgba(102,194,165,1)","line":{"color":"rgba(102,194,165,1)"}},"textfont":{"color":"rgba(102,194,165,1)"},"error_y":{"color":"rgba(102,194,165,1)"},"error_x":{"color":"rgba(102,194,165,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[0,57.7256661980704,486.094890330987,29.6634669535824,2507.05765379171,5949.4433683296],"type":"bar","name":"Chronic respiratory diseases","marker":{"color":"rgba(219,161,118,1)","line":{"color":"rgba(219,161,118,1)"}},"textfont":{"color":"rgba(219,161,118,1)"},"error_y":{"color":"rgba(219,161,118,1)"},"error_x":{"color":"rgba(219,161,118,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[25.094457115457,30.3562717942241,638.944884656977,33.7058831400563,1669.39511323488,2305.15747542473],"type":"bar","name":"Diabetes and kidney diseases","marker":{"color":"rgba(217,150,141,1)","line":{"color":"rgba(217,150,141,1)"}},"textfont":{"color":"rgba(217,150,141,1)"},"error_y":{"color":"rgba(217,150,141,1)"},"error_x":{"color":"rgba(217,150,141,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[69.2706682993191,64.7669388590516,1200.6552235322,66.0235628375256,1853.7356200112,1885.79681266395],"type":"bar","name":"Digestive diseases","marker":{"color":"rgba(152,158,202,1)","line":{"color":"rgba(152,158,202,1)"}},"textfont":{"color":"rgba(152,158,202,1)"},"error_y":{"color":"rgba(152,158,202,1)"},"error_x":{"color":"rgba(152,158,202,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["15-49 years","5-14 years"],"y":[0.659088387118715,0.0113548792071505],"type":"bar","name":"Mental disorders","marker":{"color":"rgba(215,144,197,1)","line":{"color":"rgba(215,144,197,1)"}},"textfont":{"color":"rgba(215,144,197,1)"},"error_y":{"color":"rgba(215,144,197,1)"},"error_x":{"color":"rgba(215,144,197,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["15-49 years","5-14 years","50-69 years","70+ years"],"y":[46.985051141808,4.12588855855694,61.8578746567694,114.115167240424],"type":"bar","name":"Musculoskeletal disorders","marker":{"color":"rgba(205,181,144,1)","line":{"color":"rgba(205,181,144,1)"}},"textfont":{"color":"rgba(205,181,144,1)"},"error_y":{"color":"rgba(205,181,144,1)"},"error_x":{"color":"rgba(205,181,144,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[37.2845044254684,109.580551075353,2576.7849909417,183.92702145988,7714.09841943191,8280.70967560071],"type":"bar","name":"Neoplasms","marker":{"color":"rgba(186,217,78,1)","line":{"color":"rgba(186,217,78,1)"}},"textfont":{"color":"rgba(186,217,78,1)"},"error_y":{"color":"rgba(186,217,78,1)"},"error_x":{"color":"rgba(186,217,78,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[25.8683471852779,36.4918423569325,220.893549578404,38.4386819859504,449.382872231311,4520.05092335077],"type":"bar","name":"Neurological disorders","marker":{"color":"rgba(247,217,52,1)","line":{"color":"rgba(247,217,52,1)"}},"textfont":{"color":"rgba(247,217,52,1)"},"error_y":{"color":"rgba(247,217,52,1)"},"error_x":{"color":"rgba(247,217,52,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[1573.21553306512,315.252618954791,312.65900666973,128.685033953603,259.636756360704,415.896474534647],"type":"bar","name":"Other non-communicable diseases","marker":{"color":"rgba(241,204,114,1)","line":{"color":"rgba(241,204,114,1)"}},"textfont":{"color":"rgba(241,204,114,1)"},"error_y":{"color":"rgba(241,204,114,1)"},"error_x":{"color":"rgba(241,204,114,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[10.4113126352565,5.8940806703522,23.6463416860582,2.96863317402649,41.6364843754332,87.3158244969694],"type":"bar","name":"Skin and subcutaneous diseases","marker":{"color":"rgba(215,191,158,1)","line":{"color":"rgba(215,191,158,1)"}},"textfont":{"color":"rgba(215,191,158,1)"},"error_y":{"color":"rgba(215,191,158,1)"},"error_x":{"color":"rgba(215,191,158,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[0.00104032135222695,0.0205190602257719,397.944177776418,0.092870777172293,232.763523931247,72.6529968443214],"type":"bar","name":"Substance use disorders","marker":{"color":"rgba(179,179,179,1)","line":{"color":"rgba(179,179,179,1)"}},"textfont":{"color":"rgba(179,179,179,1)"},"error_y":{"color":"rgba(179,179,179,1)"},"error_x":{"color":"rgba(179,179,179,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p>
+There seem to be less average number of deaths due to non-communicable diseases in the three age groups &lt;1 year, 1-4 years, and 5-14 years. Cardiovascular diseases and Neoplasms are the two main non-communicale diseases that have recoded maximum average number of deaths in this category of causes of deaths.
+</p>
+<h3>
+Let us now check the average number of deaths and causes based on sex.
+</h3>
+<div id="htmlwidget-cd0db262ce6f78329910" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-cd0db262ce6f78329910">{"x":{"visdat":{"8984ea924d":["function () ","plotlyVisDat"]},"cur_data":"8984ea924d","attrs":{"8984ea924d":{"x":{},"y":{},"color":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Avg. no. of deaths vs Age (by sex)","xaxis":{"domain":[0,1],"automargin":true,"title":"Age Groups","zeroline":false,"type":"category","categoryorder":"array","categoryarray":["<1 year","1-4 years","5-14 years","15-49 years","50-69 years","70+ years"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Avg. no. of deaths","zeroline":false},"font":{"family":"Times New Roman","size":12},"hovermode":"closest","showlegend":true},"source":"A","config":{"showSendToCloud":false},"data":[{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[14257.5706913411,6532.53805878954,16316.1482289171,2424.68236764364,24422.1464457239,55767.6140499845],"type":"bar","name":"Female","marker":{"color":"rgba(102,194,165,1)","line":{"color":"rgba(102,194,165,1)"}},"textfont":{"color":"rgba(102,194,165,1)"},"error_y":{"color":"rgba(102,194,165,1)"},"error_x":{"color":"rgba(102,194,165,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["<1 year","1-4 years","15-49 years","5-14 years","50-69 years","70+ years"],"y":[17211.4964384012,6598.09127152424,25713.9830626435,3046.65535690292,38618.3713370321,50291.9661434568],"type":"bar","name":"Male","marker":{"color":"rgba(141,160,203,1)","line":{"color":"rgba(141,160,203,1)"}},"textfont":{"color":"rgba(141,160,203,1)"},"error_y":{"color":"rgba(141,160,203,1)"},"error_x":{"color":"rgba(141,160,203,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p>
+<p>Comparing the two graphs above, we see that irrespective of the sex, the same pattern of decrese in the average number of deaths till 5-14 years age group and then increase till 70+ years age group is observed.<br />
+</p>
+It can also be observed from the graph that the average number of deaths in males was greater than the average number of deaths in females under all age groups considered except ‘70+ years’ group. Let us explore the division on the average number of death based on sex.
+</p>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-44-1.png" width="672" /></p>
+<p>
+Here we come back to mosaic plots as it would be easy for comparisons. By looking at the graph we can easily compare the relative average number of deaths in males and females. But again, the accurate value is not known using mosaic plots.
+</p>
+<div id="htmlwidget-8d5547fd4c1100a53c27" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-8d5547fd4c1100a53c27">{"x":{"visdat":{"8987dc34788":["function () ","plotlyVisDat"]},"cur_data":"8987dc34788","attrs":{"8987dc34788":{"x":{},"y":{},"color":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Avg. no. of deaths vs Sex (by Injuries)","xaxis":{"domain":[0,1],"automargin":true,"title":"Sex","zeroline":false,"type":"category","categoryorder":"array","categoryarray":["Female","Male"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Avg. no. of deaths","zeroline":false},"font":{"family":"Times New Roman","size":12},"hovermode":"closest","showlegend":true},"source":"A","config":{"showSendToCloud":false},"data":[{"x":["Female","Male"],"y":[343.694168971777,793.193373519545],"type":"bar","name":"Self-harm and interpersonal violence","marker":{"color":"rgba(102,194,165,1)","line":{"color":"rgba(102,194,165,1)"}},"textfont":{"color":"rgba(102,194,165,1)"},"error_y":{"color":"rgba(102,194,165,1)"},"error_x":{"color":"rgba(102,194,165,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[290.590964674586,855.580186877066],"type":"bar","name":"Transport injuries","marker":{"color":"rgba(252,141,98,1)","line":{"color":"rgba(252,141,98,1)"}},"textfont":{"color":"rgba(252,141,98,1)"},"error_y":{"color":"rgba(252,141,98,1)"},"error_x":{"color":"rgba(252,141,98,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[579.545115188782,978.103549967873],"type":"bar","name":"Unintentional injuries","marker":{"color":"rgba(141,160,203,1)","line":{"color":"rgba(141,160,203,1)"}},"textfont":{"color":"rgba(141,160,203,1)"},"error_y":{"color":"rgba(141,160,203,1)"},"error_x":{"color":"rgba(141,160,203,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p>
+This graph shows the average number of deaths of females and males by the causes of death under the injuries category. Overall, it can be observed that majority of the deaths were due to unintensional injuries. In all the three causes included in the graph, the average number of deaths of females is less than that of males. Deaths due to transport injuries are least among the three in case of females.
+</p>
+<div id="htmlwidget-b7897634a9e343f0916b" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b7897634a9e343f0916b">{"x":{"visdat":{"89847c847ae":["function () ","plotlyVisDat"]},"cur_data":"89847c847ae","attrs":{"89847c847ae":{"x":{},"y":{},"color":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Avg. no. of deaths vs Sex <br /> (by communicable, maternal, neonatal, and nutritional diseases)","xaxis":{"domain":[0,1],"automargin":true,"title":"Sex","zeroline":false,"type":"category","categoryorder":"array","categoryarray":["Female","Male"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Avg. no. of deaths","zeroline":false},"font":{"family":"Times New Roman","size":12},"hovermode":"closest","showlegend":true},"source":"A","config":{"showSendToCloud":false},"data":[{"x":["Female","Male"],"y":[992.232505641251,953.202476920226],"type":"bar","name":"Enteric infections","marker":{"color":"rgba(102,194,165,1)","line":{"color":"rgba(102,194,165,1)"}},"textfont":{"color":"rgba(102,194,165,1)"},"error_y":{"color":"rgba(102,194,165,1)"},"error_x":{"color":"rgba(102,194,165,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[601.982684045186,637.876297471873],"type":"bar","name":"HIV/AIDS and sexually transmitted infections","marker":{"color":"rgba(252,141,98,1)","line":{"color":"rgba(252,141,98,1)"}},"textfont":{"color":"rgba(252,141,98,1)"},"error_y":{"color":"rgba(252,141,98,1)"},"error_x":{"color":"rgba(252,141,98,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[1374.91377425831,3583.94747568301],"type":"bar","name":"Maternal and neonatal disorders","marker":{"color":"rgba(141,160,203,1)","line":{"color":"rgba(141,160,203,1)"}},"textfont":{"color":"rgba(141,160,203,1)"},"error_y":{"color":"rgba(141,160,203,1)"},"error_x":{"color":"rgba(141,160,203,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[379.418054124246,441.350416295452],"type":"bar","name":"Neglected tropical diseases and malaria","marker":{"color":"rgba(231,138,195,1)","line":{"color":"rgba(231,138,195,1)"}},"textfont":{"color":"rgba(231,138,195,1)"},"error_y":{"color":"rgba(231,138,195,1)"},"error_x":{"color":"rgba(231,138,195,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[184.347189632162,185.224470732834],"type":"bar","name":"Nutritional deficiencies","marker":{"color":"rgba(166,216,84,1)","line":{"color":"rgba(166,216,84,1)"}},"textfont":{"color":"rgba(166,216,84,1)"},"error_y":{"color":"rgba(166,216,84,1)"},"error_x":{"color":"rgba(166,216,84,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[572.360476830704,622.143518057454],"type":"bar","name":"Other infectious diseases","marker":{"color":"rgba(255,217,47,1)","line":{"color":"rgba(255,217,47,1)"}},"textfont":{"color":"rgba(255,217,47,1)"},"error_y":{"color":"rgba(255,217,47,1)"},"error_x":{"color":"rgba(255,217,47,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[1654.90725119881,2070.094416302],"type":"bar","name":"Respiratory infections and tuberculosis","marker":{"color":"rgba(229,196,148,1)","line":{"color":"rgba(229,196,148,1)"}},"textfont":{"color":"rgba(229,196,148,1)"},"error_y":{"color":"rgba(229,196,148,1)"},"error_x":{"color":"rgba(229,196,148,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p>
+From this graph, we observe that the average number of deaths due to enteric infections, HIV/AIDS nad sexually transmitted infections, neglected tropical diseases and malaria, nutritional deficiencies, and other infectious diseases is almost equal in case of females and males.<br />
+Huge variation is observed in the average number of deaths due of maternal and neonatal disorders and due to respiratory infections and tuberculosis. In both cases, the average is more in males than that in females. In females, respiratory infections and tuberculosis causes the maximum average number of deaths in this category of deaths and in males, maternal and neonatal disorders cause the maximum average number of deaths.
+</p>
+<div id="htmlwidget-7e7abbdabed7273be343" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-7e7abbdabed7273be343">{"x":{"visdat":{"8983c1e4119":["function () ","plotlyVisDat"]},"cur_data":"8983c1e4119","attrs":{"8983c1e4119":{"x":{},"y":{},"color":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Avg. no. of deaths vs Sex (by non-communicable diseases)","xaxis":{"domain":[0,1],"automargin":true,"title":"Sex","zeroline":false,"type":"category","categoryorder":"array","categoryarray":["Female","Male"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Avg. no. of deaths","zeroline":false},"font":{"family":"Times New Roman","size":12},"hovermode":"closest","showlegend":true},"source":"A","config":{"showSendToCloud":false},"data":[{"x":["Female","Male"],"y":[5987.63534106413,6344.70181711833],"type":"bar","name":"Cardiovascular diseases","marker":{"color":"rgba(102,194,165,1)","line":{"color":"rgba(102,194,165,1)"}},"textfont":{"color":"rgba(102,194,165,1)"},"error_y":{"color":"rgba(102,194,165,1)"},"error_x":{"color":"rgba(102,194,165,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[1324.86307503379,1685.13194016753],"type":"bar","name":"Chronic respiratory diseases","marker":{"color":"rgba(219,161,118,1)","line":{"color":"rgba(219,161,118,1)"}},"textfont":{"color":"rgba(219,161,118,1)"},"error_y":{"color":"rgba(219,161,118,1)"},"error_x":{"color":"rgba(219,161,118,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[786.930182766825,780.621179021949],"type":"bar","name":"Diabetes and kidney diseases","marker":{"color":"rgba(217,150,141,1)","line":{"color":"rgba(217,150,141,1)"}},"textfont":{"color":"rgba(217,150,141,1)"},"error_y":{"color":"rgba(217,150,141,1)"},"error_x":{"color":"rgba(217,150,141,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[673.859366789662,1039.55690861142],"type":"bar","name":"Digestive diseases","marker":{"color":"rgba(152,158,202,1)","line":{"color":"rgba(152,158,202,1)"}},"textfont":{"color":"rgba(152,158,202,1)"},"error_y":{"color":"rgba(152,158,202,1)"},"error_x":{"color":"rgba(152,158,202,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[0.591615069379013,0.0788281969468524],"type":"bar","name":"Mental disorders","marker":{"color":"rgba(215,144,197,1)","line":{"color":"rgba(215,144,197,1)"}},"textfont":{"color":"rgba(215,144,197,1)"},"error_y":{"color":"rgba(215,144,197,1)"},"error_x":{"color":"rgba(215,144,197,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[74.4084563066819,39.1335344920973],"type":"bar","name":"Musculoskeletal disorders","marker":{"color":"rgba(205,181,144,1)","line":{"color":"rgba(205,181,144,1)"}},"textfont":{"color":"rgba(205,181,144,1)"},"error_y":{"color":"rgba(205,181,144,1)"},"error_x":{"color":"rgba(205,181,144,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[2734.11163126447,3566.68342304721],"type":"bar","name":"Neoplasms","marker":{"color":"rgba(186,217,78,1)","line":{"color":"rgba(186,217,78,1)"}},"textfont":{"color":"rgba(186,217,78,1)"},"error_y":{"color":"rgba(186,217,78,1)"},"error_x":{"color":"rgba(186,217,78,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[1094.64339723294,669.065341663272],"type":"bar","name":"Neurological disorders","marker":{"color":"rgba(247,217,52,1)","line":{"color":"rgba(247,217,52,1)"}},"textfont":{"color":"rgba(247,217,52,1)"},"error_y":{"color":"rgba(247,217,52,1)"},"error_x":{"color":"rgba(247,217,52,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[476.287222104754,525.494585741444],"type":"bar","name":"Other non-communicable diseases","marker":{"color":"rgba(241,204,114,1)","line":{"color":"rgba(241,204,114,1)"}},"textfont":{"color":"rgba(241,204,114,1)"},"error_y":{"color":"rgba(241,204,114,1)"},"error_x":{"color":"rgba(241,204,114,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[29.6670030929016,27.6238892531304],"type":"bar","name":"Skin and subcutaneous diseases","marker":{"color":"rgba(215,191,158,1)","line":{"color":"rgba(215,191,158,1)"}},"textfont":{"color":"rgba(215,191,158,1)"},"error_y":{"color":"rgba(215,191,158,1)"},"error_x":{"color":"rgba(215,191,158,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Female","Male"],"y":[50.810022966781,183.681686603465],"type":"bar","name":"Substance use disorders","marker":{"color":"rgba(179,179,179,1)","line":{"color":"rgba(179,179,179,1)"}},"textfont":{"color":"rgba(179,179,179,1)"},"error_y":{"color":"rgba(179,179,179,1)"},"error_x":{"color":"rgba(179,179,179,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p>
+In the category of non-communicable diseases, the average number of deaths due to diabetes is approximately equal in both females and males. Cardiovascular diseases and neoplasms (cancer) are the top two cause of death in both males and females under this category of causes of death. Both these have higher count in males than in females. The only disease that caused significantly higher deaths in females than in males under this category of causes of death is neurological disorders.<br />
+<br />
+NOTE: We tried to include cleaveland dot plot / scatter plot, but felt that including bar charts is a better choice on comparing them because of the ease of comparison of values in the bar charts.
+</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="health-adjusted-life-expectancy-hale.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="conclusion.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/Prasham8897/Mortality-Analysis/edit/master/07-cause_age_sex.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/Prasham8897/Mortality-Analysis/blob/master/07-cause_age_sex.Rmd",
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+# Child Mortality Analysis
+
+```{r echo=FALSE, message=FALSE}
+knitr::opts_chunk$set(comment = NA, echo=FALSE, message = FALSE, warning = FALSE)
+options("getSymbols.warning4.0"=FALSE)
+```
+
+```{r echo=FALSE}
+Sys.setenv("plotly_username"="biswaspritam1993")
+Sys.setenv("plotly_api_key"="p3A0ZAbHFdOt9AM3XGb0")
+library(plotly)
+library(dplyr)
+library(tidyverse)
+library(choroplethr)
+library(maps)
+library(countrycode)
+library(choroplethr)
+```
+<h3>Introduction: </h3>
+<p>
+We want to see how the mortality rate of children varies over the course of history during the last 60-70 years. We are particularly selecting  deaths of children who were born alive but died under the age of 5. During our analysis we notice some spatial and temporal patterns. Our major focus is on the countries in  Africa and Asia, since these countries have witnessed numerous national-scale events during the last few decades. The datasets for the below plots have been collected using this tool: http://ghdx.healthdata.org/gbd-results-tool
+  </p>
+```{r, fig.width=8, fig.height=8, comment = NA, echo=FALSE, message = FALSE, warning = FALSE}
+countries <- c("Africa", "Asia", "World", "Northern America", "Europe")
+df <- read.csv("child-mortality-around-the-world.csv")
+
+dt <- df[df$Entity %in% countries,] %>% dplyr::rename(Region = Entity)
+
+p<-ggplot(dt, aes(x=Year, y=mortality_rate, group=Region)) +
+  geom_line(aes(color=Region))+
+  geom_point(aes(color=Region)) +
+  xlab("Year") + ylab("Child mortality rate (%)") +
+  ggtitle(" Child mortality rate over years")
+ggplotly(p)
+```
+<p>
+Here we plot the child mortality rate of various continents and for the world. We notice that for Northern America and Europe, the mortality rate has been quite low since the 1950's. This makes sense because there have been no significant political or socio-econmic events in these two continents since 1950. For Africa and Asia, there have been several epidemic outbreaks, political corruption events,regime changes, and religious reforms which could the affected the lives of the children. The world's child mortality rate also remains siginificantly high due to high weightage of the african deaths. \
+
+We shall now analyze a few major causes of child mortality and how these causes have affected different parts of the world.\
+</p>
+```{r, fig.width=8, fig.height=8, comment = NA, echo=FALSE, message = FALSE, warning = FALSE}
+df <- read.csv("death_cause_time_series.csv")
+#head(df)
+diseases <- c("Lower respiratory infections","Diarrheal diseases","Malaria")
+df <- df[df$cause %in% diseases,] %>% mutate(val = val/1000)
+#head(df)
+
+#p<-ggplot(df, aes(fill=cause, y=val, x=year)) +
+#    geom_bar(position="dodge", stat="identity") +
+p<-ggplot(df, aes(x=year, y=val, group=cause)) +
+  geom_line(aes(color=cause))+
+  xlab("Year") + ylab("Child deaths in 1000's by their causes")+
+  ggtitle("Child deaths over time for common causes")
+ggplotly(p)
+#p
+
+```
+<p>
+We have plotted  plotted some of the major causes of child deaths(globally) over the years. From the plot we can see that the death toll is quite for each of these causes. Deaths due to diarrheal diseases and respiratory diseases have been on a steady decline. This may be attributed to improved infrastructure for sanitation and measures to reduce pollution levels. Malaria on the other hand seemed to low in the 90's, then there was a surge of around 2005. This may be due to big malaria outbreaks in certain regions. Since the malaria outbreaks are short-lived, the deaths seemed to lower after some time.
+  </p>
+```{r, fig.width=8, fig.height=8, comment = NA, echo=FALSE, message = FALSE, warning = FALSE}
+df <- read.csv("pneumonia_time_series.csv")
+
+df$age <- factor(df$age, levels = c("1 to 4", "5 to 9","10 to 14", "15 to 19", "20 to 24", "25 to 29", "30 to 34", "35 to 39", "40 to 44", "45 to 49", "50 to 54", "55 to 59", "60 to 64", "65 to 69", "70 to 74", "75 to 79" ))
+df <- df %>% mutate(val=val/1000)
+
+p<-ggplot(df, aes(x=year, y=val, group=age)) +
+  geom_line(aes(color=age))+
+  xlab("Year") + ylab("Child deaths due to pneumonia in 1000's")+
+  ggtitle("Deaths due to pneumonia over time for various age groups")
+ggplotly(p)
+```
+<p>
+Here we plot the no. of deaths due to pneumonia for different age groups. From the plot we can understand that no.of deaths due to pneumonia is maximum for children with age in 1-4 years bracket. We also notice that no. of deaths due to pneumonia is on a slight decrease. The high no. of deaths for children may be because children in that age are strong enough to resist pneumonia. We notice that the no. of deaths are also comparatively high in old individuals than middle-aged adults. This may be the case of old individuals not having strong immunity against pneumonia.
+  </p>
+```{r, fig.width=8, fig.height=8, comment = NA, echo=FALSE, message = FALSE, warning = FALSE, }
+df <- read.csv("pneumonia_countries.csv")
+
+#head(df)
+df <- df %>% dplyr::rename(country=location)
+p<-ggplot(df, aes(x=year, y=val, group=country)) +
+  geom_line(aes(color=country))+
+  geom_point(aes(color=country)) +
+  xlab("Year") + ylab("Child deaths per 100000 births")+
+  ggtitle(" Child mortality due to pneumonia over time")
+ggplotly(p)
+
+```
+<p>
+Here we plot child deaths / 100000 births due to pneumonia for some countries from each continent. From the plot we can easily say that the death rate is highest for African countries. It is followed by South-Asian countries. The lowest death rates are recorded for European countries and USA. The plot clearly shows that the highest death rates are observed in the developing countries in Africa and South-Asia. This makes sense, since there is low standards of safety, medicine, and precautions taken in most of these countries. The developed countries follow strict standards of precaution and prevention, so they have very low death rates due pneumonia.
+  </p>
+```{r, fig.width=8, fig.height=8, comment = NA, echo=FALSE, message = FALSE, warning = FALSE}
+df <- read.csv("diarrhoea_time_series.csv")
+
+#head(df)
+#library(ggplot2)
+df$age <- factor(df$age, levels = c("1 to 4", "5 to 9","10 to 14", "15 to 19", "20 to 24", "25 to 29", "30 to 34", "35 to 39", "40 to 44", "45 to 49", "50 to 54", "55 to 59", "60 to 64", "65 to 69", "70 to 74", "75 to 79" ))
+
+df <- df %>% mutate(val=val/1000)
+
+p<-ggplot(df, aes(x=year, y=val, group=age)) +
+  geom_line(aes(color=age))+
+  xlab("Year") + ylab("Child deaths in 1000's") +
+  ggtitle("Deaths due to diarrhoea over time for various age groups")
+
+ggplotly(p)
+
+```
+<p>
+Here we plot the no. of deaths due to diarrhoea related diseases. The death are again higher in the children within age bracket 1-4 years. The no. of deaths seem to come down at an uniform rate for the children, whereas for the other age groups, the death rate is quite steady. This shows that are measures being taken reduce the risk of diarrhoea related diseases. The high death rate for children may be due to weak immunity against the diseases.
+  </p>
+```{r, fig.width=8, fig.height=8, comment = NA, echo=FALSE, message = FALSE, warning = FALSE}
+df <- read.csv("diarrhoea_countries.csv")
+
+#head(df)
+p<-ggplot(df, aes(x=year, y=val, group=location)) +
+  geom_line(aes(color=location))+
+  geom_point(aes(color=location)) +
+  xlab("Year") + ylab("Child deaths per 100000 births")+
+  ggtitle(" Child deaths due to diarrhoea over time")
+ggplotly(p)
+```
+<p>
+We have plotted the child deaths / 100000 births due to diarrhoeal diseases, for various countries. We can again see that similar pattern emerging as we saw with deaths due pneumonia. The no. of deaths over time are non increasing for all the countries except for isolated incidents which may have cause peak in  the curves. We also notice the similar pattern where African and South Asian countries consistently have higher values of child deaths  than european countries and USA. We know that diarrhoeal diseases are spread through poor sanitation and water management practices. The under-developed have low levels of sanitation and hygiene practices, so they have high no. of deaths.
+  </p>
+```{r, comment = NA, echo=FALSE, message = FALSE, warning = FALSE}
+df <- read.csv("map_data_2017.csv")
+plotdata <- df %>%
+  dplyr::rename(region = location,
+         value = val) %>%
+  mutate(region = tolower(region)) %>%
+  mutate(region = recode(region,"united states"    = "united states of america", "russian federation"="russia","congo"= "republic of congo", "tanzania" = "united republic of tanzania", "serbia" = "republic of serbia")) %>%
+  mutate(region_code = countrycode(region, "country.name", "iso3c"))
+country_choropleth(plotdata,legend="Child deaths per 100000 births in 2017",title="Child deaths over the world")
+```
+<p>
+In this choropleth map we see the child deaths / 100000 births in 2017 in all countries in the world. We can easily see the clusters of high no. of deaths in Africa and South Asia. We have also mentioned some reasons for the deaths in the areas. The major reasons are - poverty, low hygiene conditions, iliteracy. \
+
+We have used D3 to create a time series choropleth map for various countries in the world. We had received the country wise mortality rate and generated a mapping from country to country-code. We use the country codes and the mortality rates for 1950 to 2015 to construct the time series. Hit the play button to start the time-series from the year 1950. You can find the D3 map in the interactive tab.
+</p>
+
+<iframe src="Mortality_rate_time_series.html" width="800" height="700"></iframe>
+
+```{r, comment = NA, echo=FALSE, message = FALSE, warning = FALSE}
+
+
+############# DATA TRANSFORM CODE FOR D3 CHOROPLELTH MAP######################
+df <- read.csv("child-mortality-around-the-world.csv")
+df <- df[-which(df$Code == ""), ]
+df$Year=as.numeric(as.character(df$Year))
+df <- df[df[,3]>1949,]
+df <- df[df[,3]<2017,]
+
+df_spread<-spread(df, Year, mortality_rate)
+df_spread <- df_spread %>% dplyr::rename(id = Code)
+
+df_spread <- subset( df_spread, select = -Entity )
+
+df2 <- read.csv("countriesRandom.csv")
+values <- df2$id
+value_vec <- as.vector(values)
+df_spread <- df_spread[(df_spread$id %in% value_vec),]
+
+df_spread <- df_spread[order(df_spread$id),]
+df2 <- df2[order(df2$id),]
+######
+
+
+values_s <- df_spread$id
+value_s_vec <- as.vector(values_s)
+df2_s <- df2[!(df2$id %in% value_s_vec),]
+df2_s_id <- df2_s$id
+
+m <- matrix(0, ncol = 66, nrow = 14)
+m <- data.frame(m)
+
+x <- c("1950","1951","1952","1953","1954","1955","1956","1957","1958","1959","1960","1961","1962","1963","1964","1965","1966","1967","1968","1969","1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981","1982","1983","1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995","1996","1997","1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015")
+colnames(m) <- x
+
+
+m <- cbind(m, id = df2_s$id)
+
+m <- m[,c(67, 1:66)]
+
+
+df_final <- data.frame(rbind(df_spread,m))
+x <- c("id","1950","1951","1952","1953","1954","1955","1956","1957","1958","1959","1960","1961","1962","1963","1964","1965","1966","1967","1968","1969","1970","1971","1972","1973","1974","1975","1976","1977","1978","1979","1980","1981","1982","1983","1984","1985","1986","1987","1988","1989","1990","1991","1992","1993","1994","1995","1996","1997","1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015")
+colnames(df_final) <- x
+
+df_final <- df_final[order(df_final$id),]
+#newdata <- mtcars[order(mpg),]
+
+write.csv(df_final, file = "mortality_d3_data.csv", row.names=FALSE)
+write.csv(df2, file = "mortality_d3_data_sample.csv", row.names=FALSE)
+
+```
+<h3>Conclusion:</h3>
+<p>
+There are severe disparities between death rates across the continents. Europe and North America fare signifcantly better than Africa and Asia. However from the time series we notice that the death rates are coming down in almost all the countries. This shows there is sigficantly more awareness about the current issues in society and actions are being taken to resolve them.
+</p>

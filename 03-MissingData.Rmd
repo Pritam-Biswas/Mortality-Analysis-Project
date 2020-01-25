@@ -1,0 +1,139 @@
+# Missing Data
+
+
+```{r, include=FALSE}
+library(ggplot2)
+library(maps)
+library(choroplethr)
+library(choroplethrMaps)
+library(ggmap)
+library(countrycode)
+
+library(visdat)
+library(naniar)
+
+library(plotly)
+
+library(gganimate)    # To realize the animation
+library(maptools)     # world boundaries coordinates
+library(viridis)      # for a nice color palette
+library(rgeos)
+
+library(tmaptools)
+library(countrycode)
+library(sf)             # spatial data classes
+library(rnaturalearth)  # world map data
+library(readxl)         # reading excel files
+library(dplyr)          # data manipulation
+library(tidyr)          # data manipulation
+library(purrr)          # data manipulation
+library(cartogram)      # cartograms creation
+library(tmap)           # maps creation
+```
+<h3>Oh yes! We had missing data.</h3>
+<p>
+I was reading this book - Enlightenment Now by Steven Pinker and came across this chapter on Health and mortality throughout the world. It had pretty interesting graphs depicting that the overall health of the world is becoming better and the people are living for a longer period of time. \
+
+While working on this project, I opened this book again and read all the sources given under the graphs. I came across this website here - <http://mortality.org> and decided to use the data given here for understanding the number of deaths throughout the world. \
+
+There were two main issues we faced here, firstly the data was not in one file, but it was spread across different text files. Each document had data about only one country. So we had to read the files seperately and then combine them into one database. Another issue was that we got data for only 41 countries here. Nevertheless we realised that this was good enough data to work with. \
+
+Before we start working on the data we had to do a lot of data cleaning as mentioned earlier. \
+After we parsed each file separately and combined it into one data, we also plotted a graph to do some missing data analysis. \
+
+We realised that we have data on 41 countries acorss 268 years, but all the countries did not have data for all the years. 
+</p>
+
+```{r, comment=NA, echo=FALSE, message=FALSE, warning=FALSE}
+
+result <- data.frame(Year = as.numeric(),
+                     Total = as.numeric(),
+                     Country = as.character())
+
+readData <- function(countryCode, x)
+{
+  country = ""
+  
+  path = paste("Deaths_1x1/",as.character(countryCode),".Deaths_1x1.txt", sep="")
+  
+  con <- file(path, "r")
+  first_line <- readLines(con, n=1)
+  close(con)
+  
+  temp <- strsplit(first_line, ",")
+  country1 <- temp[[1]][1]
+  if(country1 == 'The United States of America'){
+    country <- 'united states of america'
+  }
+  else{
+    country <- country1
+  }
+  
+  deaths = read.delim(path,sep = "")
+  #deaths
+  
+  deaths <- deaths[,1:5]
+  #deaths
+  
+  colnames(deaths) <- c("Year", "Age", "Female", "Male", "Total")
+  
+  
+  deaths <- deaths[-c(1),]
+  deaths <- deaths[deaths$Age == 0,]
+  deaths <- deaths[,-c(2,3,4)]
+  
+  deaths['ISO3'] <- countrycode(country, "country.name", "iso3c")
+  
+  deaths$Total <- as.numeric(as.character(deaths$Total))
+  deaths$Year <- as.numeric(as.character(deaths$Year))
+  
+  return (deaths)
+  #ggplot(deaths, aes(x = Year, y = Total, group = 1)) + 
+  #  geom_line(color="red")
+}
+countries <- c('AUT', 'BEL', 'BGR', 'BLR', 'CAN', 'CHE', 'CHL', 'CZE', 'DEUTNP', 'DNK', 'ESP', 'EST', 'FIN', 'FRATNP', 'GRC', 'HKG', 'HRV', 'HUN', 'IRL', 'ISL', 'ISR', 'ITA', 'LTU', 'LUX', 'LVA', 'NLD', 'NOR', 'NZL_NP', 'POL', 'PRT', 'RUS', 'SVK', 'SVN', 'SWE', 'TWN', 'UKR','GBR_NP', 'AUS', 'USA', 'JPN', 'KOR')
+
+for(i in countries){
+  df <- readData(i)
+  result <- rbind(result, df)
+}
+
+years <- unique(result$Year)
+
+years <- sort(years)
+
+temp <- data.frame("ISO3" = as.character(countries))
+
+#temp
+country_year = data.frame("ISO3" = as.character(), "Year" = as.numeric())
+
+for(i in 1:nrow(temp)) {
+  for(j in 1:length(years)){
+    x = data.frame("ISO3" = temp[i,],"Year" = years[j])
+    country_year = rbind(country_year, x)
+  }
+}
+
+#result
+
+finalDf <- merge(x = country_year, y = result, by = c("ISO3", "Year"), all=TRUE)
+
+#finalDf
+
+vis_dat(finalDf)
+
+vis_miss(finalDf)
+
+ggplot(finalDf, 
+       aes(x = Year, 
+           y = Total)) + 
+  geom_miss_point() +
+  facet_wrap(~ISO3) +
+  labs(x = "Year", y = "Number of Deaths")
+
+```
+<p>
+We can clearly see in the above graphs that most of the data relating to the countries is actually missing. 
+
+One pattern that we noticed here is that there is more data on developed countries like the European countries, in comparison to the still developing countries.
+<p>

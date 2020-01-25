@@ -1,0 +1,22 @@
+# Data and Information sources
+<p>
+We gathered data from multiple sources as we tried to answer a variety of questions in this project.
+Some of the data sources that we would be using are listed below - 
+\
+https://www.worlddata.info/life-expectancy.php\
+http://ghdx.healthdata.org/gbd-results-tool \
+http://ucdp.uu.se/downloads/ \
+https://www.prio.org/Data/Armed-Conflict/Battle-Deaths/The-Battle-Deaths-Dataset-version-30/ \
+https://www.mortality.org \
+https://population.un.org/wpp/Download/Standard/Mortality/ \
+\
+We tried to understand mortality not only through time but also across different countries. As we collected the data from different sources, they are in different formats. To overcome this, we performed some data cleaning and set the data collected in a proper format. 
+In addition to this, we did not find consistent data, meaning if through one source we get data for 10 years then in the other source we are getting data for 8 years. Data cleaning helped us overcome this problem too. 
+</p>
+\ \ \ \
+<p>
+A few facts and data mentioned in this report is from the following sources. \
+Information Resources: \
+https://www.cia.gov/library/publications/the-world-factbook/fields/346.html \
+https://www.worldatlas.com/articles/measuring-conflict-and-disease-the-top-global-mortality-rates.html \
+</p>

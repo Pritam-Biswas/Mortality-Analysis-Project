@@ -1,0 +1,869 @@
+measure,location,sex,age,cause,metric,year,val,upper,lower
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,1990,1.596458309445103,2.203472684098849,1.1205029300642095
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,1990,236.9039511000009,353.2428331209195,143.57840350754003
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,1990,298.91593153034427,402.33562051833206,198.4295015654411
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,1993,26.774320280518968,38.77606497607129,17.692909814753374
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,1991,553.8833882891842,744.9405810193216,393.75883655970046
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,1991,140.49245659816017,169.98907595904853,110.94343912186567
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,1990,322.92263306472154,529.9356625029623,131.83737620665573
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,1991,49.946418379440345,69.94705150242241,33.859642690555894
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,1992,234.67733926283947,321.1227146412399,158.01457132328198
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,1990,2.113320585022282,2.7869925035687655,1.5867514425997251
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,1991,32.37547757135169,46.88418124208648,20.711949505501682
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,1991,10.894202627114222,13.728405720335308,8.56711291949548
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,1992,208.2921090225875,306.3378333314816,126.8579045124367
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,1990,236.2294737724374,322.1159939981678,153.67783422004004
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,1992,305.4786114160676,401.893794949233,212.48280363142686
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,1993,133.73390475104404,162.2390652016412,106.73600470056644
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,1993,528.7581184766993,702.9299978710478,375.9565730576095
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,1994,376.3268400171619,534.1879410821114,244.46030233644547
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,1990,1.7232810332479205,2.3055779262619316,1.2661172456924783
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,1993,40.08817532120678,54.58634044519138,27.172425277196904
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,1990,2.671480279663417,2.8524899446084633,2.5121903935841394
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,1992,313.10876474559024,493.18473325918416,145.32085363998877
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,1992,1.5002953727756139,1.97748731077086,1.1142811931961984
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,1992,1.3541803448491319,1.8374053412971987,0.9842068733413297
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,1995,405.81118966183243,610.555979299343,245.6096691579765
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,1995,173.00546817321526,237.09372950650496,121.75418491914645
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,1994,163.8288937213516,208.68706185020355,123.40231852807915
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,1994,216.30213776180145,331.62916979167176,90.34459292859401
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,1996,222.3178355129712,306.33683084206893,150.76091755272247
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,1994,292.89689867310426,416.3311741889489,194.21230575319694
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,1993,8.389922047803086,10.703670338537526,6.510722145831408
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,1995,61.18027346558594,70.32126977216087,52.976872392034906
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,1994,1.0905257456637156,1.4313631340850754,0.8142914276313575
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,1994,13.006413524932185,19.48230778238379,8.067096578060827
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,1996,272.62367797408035,349.0936800813242,193.84815366412454
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,1992,2.1733230243648287,2.334905570848741,2.0568222856097393
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,1999,331.97541963189053,486.3036207964297,210.53135477036435
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,1992,1.95616441815345,2.5699778055379725,1.417032577701113
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,1995,1.2635720660521996,1.7045777059233511,0.8526013569903742
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,1995,153.43048299786605,210.88220735632075,104.57956968667891
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,1998,196.51588645532775,299.83249122291494,103.72250580723252
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,1996,165.81571337624047,243.73691657570956,104.08992044867172
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,1994,60.93649788763637,84.44606726868086,40.422454499455924
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,1998,122.9307306637861,163.8094534964518,86.80505891314915
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,1996,290.28347273343263,421.4981799043736,184.03796951841775
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,1998,234.3062764857678,332.76004416257155,155.88984988346033
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,1994,1.3441803737537008,1.9042813285778413,0.9397514562542512
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,1995,134.57450410921206,161.78649647574963,108.03995360518586
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,1994,1.2723063766281537,1.6833734005151324,0.9186002802675116
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,1996,1.0988678072336275,1.5123906736205184,0.7441657725358597
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,1999,132.32912393892806,181.99496798452145,89.45198034306738
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,1997,21.08866300942332,30.41464696484859,13.925187190290409
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,1995,0.8805023783242423,1.1976465364486917,0.6202370743625202
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,1997,116.50037878802115,140.81241295773592,94.89190792377812
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,1995,1.6319706511153658,1.7398823904229037,1.5293064699974204
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,1998,54.070241425544395,76.51436934711762,34.54189227400807
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2000,214.71026745639767,290.6718547283937,142.81126063350496
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,1998,12.202105132538756,17.527956375431796,8.024811532325733
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,1999,145.8372871367688,201.66792442527338,99.64171965277345
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,1997,27.23401164368937,38.958120110907004,17.642496845927106
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,1997,476.6927322991648,637.2884259208034,324.4682286751822
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,1999,1.110743742991097,1.5416294823311614,0.7651003097665597
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,1996,2.1992151472432213,2.332778814482277,2.0679754359080804
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,1999,62.3230559987142,71.08015316762048,54.517800901441454
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2000,214.11073139069615,274.4034145624397,151.99150066827588
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,1999,107.97562648816181,127.776942530397,86.751192629964
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2000,124.82678412522854,190.49430140707344,78.28154867524204
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,1998,370.1728866264646,519.0549953561566,246.6049822744645
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,1994,1.1269352041423595,1.4869704463541802,0.8260408362376289
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2002,146.7732457143347,226.57369969577593,75.65317346080853
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2002,98.9405197271059,128.28260072063904,72.75471340288269
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2002,209.22933250766226,294.74240983291145,143.99807589903116
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2001,88.26421971939067,105.47764922899448,71.0739409808495
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,1997,7.1670953848388566,9.150571262708656,5.601240158444443
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,1996,1.338215098483872,1.7875410586667873,0.9710013854714112
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2001,413.79333725937477,564.3806301598898,290.09104051145835
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2001,23.246571674666928,33.0901004698171,15.577319616806655
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,1998,1.595751728932182,2.3243467595396052,1.0937017786886745
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2002,74.15476239853554,99.78083746740461,53.05707988419326
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2001,15.889344499192285,23.552475833566046,10.153284148324255
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2003,60.007187687470854,69.94914467321905,51.08100505153532
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2002,11.279425999626296,15.910865286632315,7.568466741133429
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2001,6.486613648216523,7.943112587928053,5.216614419673209
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2003,96.54594491767399,132.75810296840623,65.06644188327375
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,1999,1.4539570742492476,1.5474596323884604,1.3547200821797858
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2003,90.31953862847051,104.30488143699343,76.1552798218699
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2004,176.3324102369682,220.57298368741343,130.5105738981297
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2002,1.254768503262665,1.6604157827650239,0.9181520154160271
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,1998,0.8811320359081356,1.224332047651096,0.6039774388981778
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2002,362.9079069153267,503.3305286839443,237.40762261902256
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,1996,1.0834972625733748,1.4109828793405248,0.7796644911936997
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,1999,0.7881720110499347,1.067615254594858,0.5472925836338789
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2003,110.69977050570182,148.58813945948876,78.6057425378571
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2003,0.8794477581593292,1.1931787120263264,0.6313866057825471
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2004,93.69698810388562,141.87868012284903,58.4796439747136
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2000,233.97601766478928,336.357155200956,150.26967277480995
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2000,1.9058863916258992,2.0211421821437225,1.7841076212056384
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2002,0.6728307985047504,0.9227706291093999,0.47692032114873706
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2005,69.66717370192785,82.1900322200969,57.796393759190615
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2004,184.31309910512152,263.2495238073975,124.5895512307936
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2005,11.733052780056559,18.216705447795736,7.019969727706615
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,1998,1.300177537022684,1.747750194401004,0.9203210737892077
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2000,0.7484548064165435,1.0398261160811546,0.5212541495758658
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2003,230.63794225442382,337.42939893774826,138.53364205595673
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2005,21.11042188330512,28.245143969718917,15.491176906430782
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2006,159.5327909795365,233.59709913747733,104.55187292270726
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2007,53.340593009700164,61.048425464954214,46.201188452330335
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2006,78.64723243338575,106.7918790180422,54.646410475829185
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2005,323.3737973276047,443.06694032072124,224.63272190158543
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2004,198.53701252285526,283.31111008443133,125.87371267352538
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2006,73.35179926069591,97.09891104575516,53.50631956142977
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2005,4.660711475540067,5.564552043430923,3.8491575046171307
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2004,0.7931789873435456,1.10450020271829,0.5753687699804662
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2003,0.745616285629082,0.9758214801431198,0.544978895243303
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2006,315.08704919243274,434.78103485160983,214.0406634759564
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2008,130.56397511676093,160.57220620702583,94.94470163051122
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2006,9.547129395252238,13.277706292964309,6.439304901554714
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2004,1.6534896811610391,1.7544724617303564,1.5463395359375545
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2003,1.3777840208831786,1.4713286267442702,1.2916954358224524
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,1998,1.038263900379256,1.3667192416328668,0.7810645041417154
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2002,1.0644501685687437,1.4478701234894518,0.7757168435726342
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2007,78.78009129150325,107.54350918420856,54.58939718880699
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2007,73.8379382626804,84.63991397384207,62.49465942373818
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2008,77.05047909194126,108.6735901934858,50.36557709485459
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2006,0.9681904133228446,1.3242463241818831,0.7016252426024039
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2006,158.31300993394905,220.70431760253516,105.73409166661231
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2008,231.4560793726455,326.2074521579504,156.10640065387088
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2000,0.9859406058761293,1.3454456312219916,0.7013561530815609
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2006,0.559790684366006,0.744565015842504,0.41101481374808196
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2010,7.035888028764298,9.385026245760638,5.0891437594811055
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2007,75.12502093092996,100.0825234391103,52.474900679240044
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2007,0.6143668126942707,0.8266372324171574,0.4353935369104848
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2007,184.2473549695484,271.2344589414218,111.34204196016978
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2009,15.097810823563501,19.928425219956928,10.594477388244657
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2009,262.42615641338836,362.14877486025335,184.03957027699286
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2008,172.80182698731718,240.9964507954125,112.69547444414899
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2009,9.361245620355149,14.354884704861494,5.26408318090147
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2010,85.55114681094888,111.17191180566866,62.18891925196095
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2002,1.3921091868886322,1.8824694994969715,0.9955856138068673
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2007,0.676569265870823,0.8954413194724973,0.49689477530731185
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2009,53.84656033306158,64.23979737279838,43.647827956646935
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2011,35.869211808267174,40.87252932213748,31.287851035088114
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2004,0.7520817589594069,1.009748946634781,0.5319673349425897
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2009,3.774259088144742,4.613773865961588,3.0144699254065075
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2010,288.95371922263854,386.70005326506396,203.1312164252349
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2008,1.589635227738959,1.6863985884567791,1.4739013273960069
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2011,59.98081484626331,69.39611308957069,50.62528926517018
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2008,0.6951658567087334,0.9676483019546998,0.48615859353984897
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2000,0.9266025957552378,1.26181382319912,0.6531999373590727
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2010,89.04472355919114,129.86812947026718,53.41009246308146
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2010,0.7666833330678394,1.052079300633526,0.5358070781143256
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2010,133.4622062600112,192.56804628885865,85.79262076406842
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2010,51.066239965282925,68.46811397098219,36.9895383107139
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2011,155.49162476864302,237.27535151543822,94.23798024143636
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2012,52.039935658277955,76.73429942209123,32.60892857207913
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2006,0.965296082983696,1.2587086650609989,0.6802308383840308
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2011,46.921621894589855,63.68005111085868,32.75312216261291
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2012,87.85564676530217,107.92258152272413,64.42078544358046
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2011,67.369246477195,89.50269573666016,49.67846720183455
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2007,1.319990931976602,1.4017985900385213,1.230082100301379
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2014,5.939882076237482,7.988501947475229,3.9937225202620055
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2013,215.17712881547772,288.0948146813892,153.9771036755119
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2011,1.1200352982962767,1.2000665276398415,1.0403982123291593
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2004,0.9437337483577709,1.2452532980100155,0.7038577752779396
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2012,157.0402595088801,222.1866691613561,103.63485232544416
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2006,1.5613474440269242,2.1795148563758486,1.089441296120697
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2010,0.5126985847085495,0.7227704941441578,0.3567412497000615
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2013,9.81358883279558,13.93572095898879,6.483333984955772
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2008,0.6716641500448832,0.8952689276077722,0.5015415259858381
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2012,200.73200486154877,290.91061180609773,127.34702183940874
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2011,0.587789192604283,0.8020811418420235,0.41759163073582495
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2012,0.5977619750485076,0.8114563972341433,0.42108289805957727
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2013,39.82548618311557,46.68289152547167,33.75562139281156
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2013,2.9424186277356186,3.7533966754465484,2.2014070056316757
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2013,6.194610433965418,9.641763914187845,3.3614113009520343
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2015,39.37394820292746,47.389717914131026,31.155490010259676
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2014,0.3361971841789804,0.47252382732944653,0.23406007050018085
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2017,2.9680018806013315,4.017105263572734,2.1020173214469065
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2012,1.328242478417932,1.4041913023392723,1.2484508378229906
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2017,23.948906353888557,29.275043370544108,19.393027686414413
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2014,67.47666782149064,90.46250919740378,48.712262572638316
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2010,0.8770015698287076,1.1904492545435368,0.6261826010490984
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2016,36.37304926764958,54.19592401710103,23.177429464202877
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2008,0.8325515605106693,1.1516241235465736,0.5905100613288596
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2016,55.86896711216421,70.61183891311316,41.61104065757372
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2012,0.5332920949742324,0.7570993930208088,0.364355041644528
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2014,66.96842311280224,96.62598674851199,44.01209824513423
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2017,7.560807303705859,10.988200788293426,4.986179290165696
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2017,194.58569869258042,269.8146917444597,133.6086890796192
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2014,34.91011066749627,48.12775339535717,24.11180556882367
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2015,33.027742203481,44.94389782628109,23.19218134087944
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2015,111.82428929608108,183.67975171813342,60.72261751772467
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2010,1.5084204604891793,2.2239877338301826,0.983715557493935
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2011,0.4763917333052265,0.6581615626315701,0.33258601076620875
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2015,0.6348440287992648,0.8479591248759873,0.4654735397027576
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2012,0.6485840501031945,0.8891107720504107,0.4536905464873789
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2017,5.167733522411225,8.230828371070347,2.7470929998379705
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2014,250.9992788308337,343.43539621976663,169.4450524874832
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2016,221.77336518179598,315.2499305943135,146.0630169990274
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2014,112.79325864987264,163.68819209429822,70.61103078549947
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2015,48.44265413209721,66.67703754079804,33.45603203794858
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2015,1.1127526635936957,1.1943716163995297,1.0302477739054057
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,1990,211.49342729770842,292.72211175633714,143.4015483157056
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,1990,146.20808249278102,179.20264193311044,112.40578613576231
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,1990,1.2362269046998715,1.6538890215696944,0.8969799841356132
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2016,117.367413596519,166.0694732334352,74.23059035811626
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2015,27.233276050028163,31.397837474849283,23.481765376836535
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,1991,313.69416925273345,514.8073051928399,131.1761421838607
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,1990,316.9241253525639,548.917608064387,85.77180500970701
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,1992,71.36606955257618,83.66938401354102,59.11834610781299
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2016,1.2733296594699846,1.3438785587768793,1.1903172822436499
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,1990,84.19289519219109,98.01579194772908,69.50168700309858
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,1992,164.03424078600418,224.15416837778835,114.27325504008024
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,1990,172.6435737138784,236.84259655614002,118.60611993561375
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,1991,2.0348369837801177,2.7230528911127263,1.4674135701031457
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,1993,305.8587727566656,394.87052986752957,214.28216049466823
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,1990,2.2299976865676663,3.012763731786726,1.5980130499755776
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,1990,2.092702157798118,2.229177158339711,1.9613404861567
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,1991,235.80140458775324,321.7748733214835,154.88708659937052
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2014,0.7452903078197582,0.966013953936639,0.5742921804667545
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,1993,234.494888265897,319.37854545988813,160.7906615057364
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,1991,222.6863478070113,332.5859321455213,134.09868975491287
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,1993,196.1868799944253,288.9602259576845,119.18813119068221
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,1992,140.71043233886027,170.40023376509276,110.87638041417094
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2015,0.5460897243039944,0.73440041729592,0.3906977587082144
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2016,0.4998678039360471,0.6549273298821451,0.37344510123684527
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,1991,299.3550988439204,398.0790409968018,202.93430972356265
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2016,0.5129647153617716,0.6598860780436334,0.3914258025660732
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2014,1.4301310183180875,2.000484605090368,1.00814694601845
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,1993,311.78832359656235,479.0480962537585,167.6191125775358
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2016,0.453920245795981,0.6174790557424389,0.328567609282292
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,1993,1.1996345119142062,1.5983551372888074,0.8744688359830767
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,1994,36.13350559102388,49.31459392769284,23.48936974709847
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,1992,198.19387418945246,268.438656385154,137.93549362126254
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,1995,232.6650666510831,356.0465263602674,105.12807090758243
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,1994,518.9366016356578,694.090011933376,364.10053834299566
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,1996,59.674137257248084,68.88749056055785,51.301722867454785
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,1991,2.47859683819059,2.6473683074351375,2.3362215784820197
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,1992,1.9593915856328044,2.602047361991465,1.4436642088983727
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,1994,24.924428080406123,35.70913101870286,16.30029062725205
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,1994,130.55788288587559,157.09296192848475,103.11716528073065
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,1991,1.4780210260081899,2.045545859353691,1.0394354396782373
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,1995,59.57037263379059,82.88231413676208,39.10412633983548
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,1995,277.3014233571511,396.907307676491,183.86327659583677
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,1995,151.1935250924135,193.80780052763276,111.30620609728831
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,1994,7.819361230198917,10.036175736231781,6.012107896002992
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,1992,1.1058185846597497,1.4215082365699474,0.8414004041946332
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,1991,1.5435356188209972,2.037552785139636,1.1293429077197787
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,1992,364.05885864015653,599.5101050440946,138.60839077762077
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,1996,129.78733751961943,153.64702119492992,104.8851580196923
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,1995,373.58611785195643,523.3342809633848,244.14274926029444
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,1997,257.0249350233713,329.980017397116,182.15053890430198
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,1996,167.27246133884614,233.68584417095815,115.5943225391019
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,1993,2.1805580331349623,2.322903974906708,2.06483679297008
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,1995,12.754684523739312,18.459661523488116,8.129775069814855
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2014,0.5239386676381057,0.7227826888104807,0.37355614367017353
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,1996,1.1566455196840433,1.5529558424489422,0.7803994854363806
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,1997,152.3989107971407,227.43808519339365,95.21155230983581
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,1995,1.1365078369046728,1.530929938257486,0.821572403871481
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,1996,392.5805540666771,582.5724897493799,247.69235529435193
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,1995,1.0743689702132604,1.4666394334336752,0.7610037669654893
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,1993,1.7672957555005233,2.355532817272698,1.2830816932519893
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,1997,0.9705454058079231,1.318585188879179,0.6898907042897156
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,1998,462.56928324734275,619.4631366612995,317.14616802441236
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,1998,109.7718312336465,133.21223922296483,89.28959240434705
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,1998,25.702876648052094,37.088373831367264,16.84753250095835
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,1997,272.81443939597364,390.988534231913,174.36022682010216
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,1998,19.641308423312008,28.576590005544425,12.897860950297018
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,1996,0.8779124109614795,1.1704544433615531,0.6150990602110418
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,1999,13.177516723221654,18.49888922729323,8.944759671693149
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,1992,1.9172731107135141,2.0495820160459903,1.7961144607359887
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,1999,70.85794119593382,93.35633362599455,52.02395451916577
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,1996,149.8103944180763,206.01532857797088,102.67650093994743
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,1999,368.515801154731,513.9912811678261,248.11664535723307
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,1998,6.995435931374911,8.604671999606296,5.591548896997875
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,1997,221.1373341670744,303.6138522714966,149.71863871648455
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2000,63.47394219522374,72.04857282056305,55.325635606061496
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2001,212.9911910617262,265.0912414258578,156.59257525591707
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2000,105.97039487424199,124.16383264234724,86.15126549016694
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2003,10.760442956015446,15.034721373041798,7.445911426725941
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,1999,0.7818482285652649,1.1019964982699662,0.5443250438244813
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2001,219.63284389144468,314.363628574236,139.18286550485902
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2001,118.09619797452902,180.25015465015608,74.55257626153899
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2000,136.38567487623723,185.43447965507144,95.83373351408689
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,1995,1.0738434039954659,1.3634552350521303,0.8232116617292964
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2002,82.1734783476751,97.21996170237921,66.7027940357733
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2000,306.119690683074,452.0127773507377,190.92292879222893
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,1999,115.63988989145686,153.93713105566368,81.91149302963254
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,1997,2.1608317532716526,2.283781435384174,2.024689073256304
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,1999,226.56964294097793,322.41853383522215,151.63695624341258
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,1996,1.586339856790512,1.6923621690558555,1.4836302428272878
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2002,22.06781999771777,31.41782827300746,14.952723937655513
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,1993,1.386198297769147,1.8203212429203592,1.0382374245526604
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,1997,1.2981947303590864,1.7537696793218012,0.9222241125175883
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,1999,1.3181332095160132,1.8194381940262525,0.9277340524785896
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2000,0.8171903612079747,1.0946882533332658,0.5657693090580307
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2001,0.7655595842340914,1.0476992229728341,0.531411944545663
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2000,122.62412454261028,168.56167377208348,82.50481407640528
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2001,209.95980255230583,289.50469599424747,141.25194121853121
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2002,389.8230950866127,534.0366993325614,275.824979918
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2003,75.94355842131512,102.86568740636814,53.91452615542973
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2000,1.3983369337604055,1.4935292873668853,1.302495621514858
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2002,14.926133777605868,21.959782225021907,9.517867355244498
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,1999,190.4193463050022,287.20897652726813,103.22888170462507
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,1995,1.4045018461266672,2.0128865629778536,0.9696109992908594
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2003,353.44069722229665,486.2728923355037,232.31688492872487
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2001,1.7257714779910494,1.8298455924791193,1.616886925447512
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2004,85.01812643381807,98.0831998302922,71.89190821200224
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2002,5.889155669208024,7.247190441271323,4.677683804092941
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2001,0.986462042906758,1.3251896974739128,0.7008117799690013
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2003,184.07440604694511,248.04244024764543,126.12391100900466
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,1997,1.0088090208736937,1.3205810408472023,0.716904057034018
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2003,93.8583058790229,120.816497824079,68.15629744580883
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2005,165.82615401845533,206.3704004898571,124.18747254019289
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2006,65.29962918228657,76.89394096504383,53.97064664510975
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2005,97.69020692085603,142.01481193899897,63.612862042576104
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2006,320.0763015165978,440.29796292593204,225.17680793544505
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2004,208.39179151918412,302.90901626840787,125.3231876429992
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2003,194.09164704488492,275.32245832020965,132.07957858677526
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2005,214.27543091495582,304.8780804155891,142.58244652418625
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,1999,1.069250973615301,1.4153184662378324,0.778669196055185
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2004,0.6943259381759668,0.9140475875639057,0.5137144397318572
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2004,89.84383791825123,124.95250994170841,61.134835417961135
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2004,106.24201867362429,143.70609812742393,75.5966575080929
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2004,1.3161296169866321,1.4036929150524156,1.2331175701887953
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2006,19.773590395080628,25.59042886700281,14.534755335614825
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2006,10.766183642096957,17.00062189303994,6.252839751292083
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2005,179.73575594669808,253.24062221831696,121.95118386459738
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2000,1.1035358223171685,1.5051906758614848,0.7656424311580311
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2003,0.7011235827348027,0.9538376914749854,0.5033050398094021
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2004,58.40793613521903,68.48450325338256,49.19356655729069
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2007,84.603439590307,112.44946412959219,60.01601480278017
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2006,4.488002090827904,5.370369799611437,3.6481458249846117
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2008,67.78904934384369,78.31987186720171,57.54293185597991
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2005,0.7318605095154123,0.9878227688321896,0.5239294183769115
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2008,72.3588867898458,96.23543482452496,51.28934607357854
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2003,1.0716264131114317,1.4514135776649573,0.7683745630980567
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2007,144.1677009309381,200.0145572715266,96.80408798297378
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2001,0.8764780732358757,1.1653593537292495,0.6377901196185477
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2008,79.92035129406037,104.93942114074427,58.03483196382688
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2008,191.9482746455422,280.6761788438529,111.20516215267439
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2009,225.1254202129278,320.3528260438335,149.104321324623
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2007,9.077743186259912,12.936316633382358,6.041705620136786
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2010,49.5765830510779,59.112864964973646,40.21613384570222
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2007,149.51745227538345,218.7677795567839,96.7586176213462
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2007,318.1227932392848,427.8440167428961,221.74493425954748
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2005,1.665957570307342,1.7716484049460908,1.5574728775200462
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2007,70.22024088554436,92.49846701442529,50.53361385691355
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2010,246.69941167181872,337.88556599467654,176.72289817579568
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,1999,1.4840639682134489,2.1199037288167877,1.0084199832562408
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2005,0.766898537145516,1.056704150817901,0.5431648203687254
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2007,0.5271913099623716,0.7362182538166103,0.3760506253202878
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2008,0.6735556249973889,0.9196590706235284,0.47444249295772734
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2010,8.803543385639484,13.538076812198268,4.879077917045681
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2004,0.8189416646754786,1.1189065448650277,0.5898813135652408
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2010,13.542526969280614,18.28395635546555,9.66579130458045
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2003,1.4230088913021965,1.9277408370962588,1.0375958409458694
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2008,49.24552926864525,56.159072728552005,43.10898376024383
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2009,173.12235335269406,238.30739941168136,114.38335027343162
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2008,1.2927403418702863,1.3744640426786012,1.2071303628001748
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2005,0.9205118290518376,1.2267766200797123,0.685876091750011
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2011,88.13299079697656,113.63164758683892,65.39663193432538
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2009,69.67697826302035,98.87208102873424,46.09857720506884
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2009,119.99825646407453,148.6479404812468,88.97623554160973
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2009,0.6703713996688497,0.8947980425093459,0.491714177226954
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2012,53.595439128986264,62.901930068472296,44.063743940886994
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2011,276.07614289262756,370.9662611762273,192.50468105326271
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2009,1.5019930405188235,1.5919019195244681,1.397471819327694
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2012,143.62699516610118,225.13261264574814,80.96557571230286
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2011,46.97012156736675,62.779966025484796,34.29570218103117
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2009,0.6004513094717205,0.8305899138276809,0.42413650905534733
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2012,43.16863038223215,59.61011710445119,30.683635161514694
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2011,6.464128285828945,8.551170386432515,4.529921950013866
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2013,208.71582608425015,299.42497031409505,135.27056510373802
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2007,1.0126716298150744,1.3328417238426544,0.7346950875075207
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2008,0.5674074898253807,0.7749239170096515,0.38955699346629463
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2003,1.1714961395565568,1.5419072144851564,0.8688749723463306
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2011,0.45491381261666697,0.6487930794558285,0.31441311872943856
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2011,123.66965554862242,180.23708620180003,78.71670949471351
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2012,62.35417588574629,80.49423293114825,45.9758953062454
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2014,9.012582631086355,12.920867371286052,5.853223911311682
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2012,34.19922241821597,39.072474432035506,30.015889686017626
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2011,78.86946958464746,114.4022811717865,48.93478358090584
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2012,0.5809296986138117,0.7890158536748643,0.4004329350795592
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2013,146.64540422504592,208.1416065533041,96.75121165528466
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2009,0.803857472061308,1.1131590682199628,0.5836472966175467
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2015,63.00599820118435,84.50285455816164,46.01828575819122
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2010,3.4868420033770153,4.32167339231061,2.756931443415059
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2007,1.4923884362662945,2.118117611663452,1.0507483631896442
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2014,6.660464053999756,10.313560794315677,3.6056356350126935
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2011,0.8802013850811055,1.1834184322078618,0.6222438282780813
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2013,1.2657093188000976,1.341694176344464,1.1886406465531394
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2015,32.47401145306137,44.35454653421107,22.716027891916838
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2015,6.0342815592723,7.890345127969413,4.195503193088715
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2013,46.65730465617446,68.71221350551873,30.106845762223376
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2015,115.16729051753822,166.43612410827288,72.5758562632657
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2016,37.03054070084159,45.22342769559733,29.09596748245884
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2015,249.3623854164393,339.26598282828786,170.50723519701864
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2014,212.07054675280312,285.8821466308078,148.4835470567059
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2013,77.69196328634501,96.4658520588793,57.11207585584101
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2015,61.54183261848904,88.76842540460265,40.02364834192699
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2017,208.9742415107652,297.7298110563804,138.63878856944493
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2015,0.3390102458460961,0.4670429454131186,0.2358812694169133
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2016,31.271611431748216,43.01756946108773,22.313619507797792
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2016,105.39207977014539,166.98877109002834,57.67717202780492
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2013,0.5678791770742535,0.77952810507374,0.39774308893571664
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2011,1.3608379651810418,1.9796209692606441,0.9097976435256376
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2017,0.513914842515213,0.6490624609313643,0.38619184998807293
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2016,44.45319830574045,60.39993662724573,31.11460691161187
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2014,34.20169753914115,40.37340832636573,28.805205350056788
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2016,23.089010024599144,26.931763730825136,19.61889798035994
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2017,107.87892235197751,155.55663519625028,69.46706573585956
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2007,0.8613867359784331,1.1509578604800366,0.618704160710552
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2014,2.9798403432899785,3.864270862723734,2.2262900235126852
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2017,0.43854440977064085,0.5858675238551513,0.31866873541757096
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2012,0.455214702109124,0.6395504076140042,0.3079843963886185
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,1990,406.13584566835306,569.2579692904696,258.8183481646002
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,1991,206.18763668503584,282.6717738289349,142.07750064340328
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,1991,342.64005537195925,583.5232528341824,104.65609679987502
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2016,0.4888606193378557,0.6591251029666961,0.35439522639234033
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2015,0.7815269447480292,1.0329478352015706,0.5808155100056396
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2013,0.5272674423454935,0.7351700002507868,0.37123847116740666
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2017,0.47127070130303716,0.6095290670824731,0.36352443237420495
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,1990,335.12916757699867,529.0316398982397,100.09963240327305
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,1990,18.797494083607468,27.06610655440446,12.092454134288944
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,1990,339.4145737697246,481.74860890361157,224.451084038068
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,1990,1.3540395708016553,1.8379674200784877,0.9700353877773309
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,1990,1.599247016157717,2.134250655733269,1.1873741529042012
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,1992,14.958907168899094,22.427890877704364,9.295537861921783
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,1990,1.7170740913172509,2.493144137547608,1.1914099358449473
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,1991,168.62275450340545,233.25798419115503,116.40878405835824
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2017,1.2720004259677447,1.344975194060352,1.1952815968912704
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,1993,65.02359735005663,76.61967858150895,53.40649068255447
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2011,0.6672502605831488,0.9278645519606685,0.4643033115153782
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,1991,77.62554654508875,90.37046660088316,64.37729499212372
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,1990,230.41660771990993,310.4122541307103,163.27352017007976
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,1992,63.074273695896544,85.79058889922696,41.53238839070324
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,1990,67.24008587804651,92.81145509403943,44.02572523396683
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2016,0.6260603850523697,0.7986433605863359,0.4756043517307005
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2017,33.283105466207395,50.26493677278604,21.29637995255639
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2017,55.2033027658214,67.20269633122308,42.222202634107965
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,1993,138.6873104966766,167.34728518933824,110.59259283935502
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,1991,2.046236932439202,2.739962012960535,1.5257282441116609
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,1990,1.8217094545598165,2.5198492535196286,1.2967284363149403
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2012,1.0990077791570483,1.176096221376667,1.0209357495368272
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,1992,196.20850802983875,256.6245209494619,147.64763400242177
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,1994,305.53689241794876,458.2041264599431,178.13614977389332
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,1994,187.79031145748564,273.98623588492353,116.29850218492683
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,1993,160.45089269201196,221.24462678169095,109.6975947104064
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,1994,296.2181298313285,380.2619292752174,211.38719411550764
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,1992,239.1094486665368,385.21868676164473,79.48286269827719
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,1992,1.6604532926225748,2.1683031170586404,1.2153537640746148
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,1993,382.7846258512912,602.2823795435784,177.3457806089088
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,1993,190.1065763064966,254.85747985278215,134.9610454224919
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,1995,127.3473903087387,152.64952978007955,102.69656873958893
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2015,1.4851969943178702,2.0298796187051455,1.049105544174399
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,1995,507.9502640563574,673.7627511619171,353.37964476218434
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,1992,384.62693894141836,541.4863122416796,251.4983402461076
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,1991,142.77228725448532,174.10230202497846,111.79837277878893
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,1992,321.3988363665552,458.3283554466648,214.50340257796506
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,1991,1.1818370023827105,1.5367358220423,0.8665277793179492
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2016,1.1197615498964888,1.2015568712940177,1.0400725142588716
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,1991,2.035564722905298,2.1664410944685555,1.9011174375492919
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,1995,32.724024954348806,45.41798594591156,21.686685566871617
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,1993,1.847774356237593,1.9665103168539841,1.7350868566812438
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,1993,1.033870406356213,1.3446276022748278,0.7914515429951393
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,1996,56.564181656915345,77.84489570370914,36.74215723083586
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,1995,23.775831231530905,33.978599019395425,15.73712157950587
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2015,0.47858653235404935,0.6490259075114345,0.3453839596369526
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2013,0.5498349001579247,0.7471346604822137,0.39411032400080037
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,1997,123.2067448377514,146.8886307480818,98.23431521833787
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,1996,0.9856985393804081,1.3385008746569436,0.7114586405787442
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,1994,1.5721532445274558,2.078750996828694,1.145368532015762
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,1992,1.2159449270697984,1.6137680349339742,0.8877333268212377
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,1995,7.523365851630866,9.817879294004717,5.7748288063203885
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,1994,2.1351873949806905,2.261491956120245,2.0145921450991624
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,1996,12.6344506180832,17.833620458297684,8.55576810600124
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,1998,260.54384146175033,380.573868224276,165.91521872172942
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,1998,140.1218182266085,210.0573367215482,86.90328417040958
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,1996,263.44857350018526,376.5238936872924,174.7545456339435
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,1996,216.19879923132157,331.7835232887961,103.69049758922242
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,1996,372.1080899436619,523.9754598322519,244.08988480157635
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,1994,233.4410956769648,316.80046170132835,162.60291300974228
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,1996,140.8410999427415,184.00108285446152,101.5100317457142
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,1999,24.581732145217202,35.48041776384059,16.072114992923108
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,1997,378.6674980622639,556.3332552633325,238.4775879457308
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,1999,450.9857678711499,617.801306665295,312.0938380263243
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,1997,159.4659085065249,222.42574435658778,108.59847390336357
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,1994,1.1527474480416395,1.559895662173301,0.8235085993516683
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,1999,102.30650065209679,123.42932387216965,82.82443396079567
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,1997,60.40115768432405,68.86903486270691,52.51061124058992
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,1993,1.7505549246454832,2.27848834931736,1.2998305644019892
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,1997,146.11059654739182,198.82195126264185,97.70205739669817
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,1998,218.89636112876954,301.65880237602425,148.33566968785308
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2001,96.30626961099344,113.14869698352483,78.44034920806024
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2000,370.6484238749337,513.7051106420852,246.33560075363127
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2001,276.98535398930755,405.0175419730192,170.42259009559407
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2000,180.31281412550672,275.4137273873424,96.72095375308903
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2001,112.91064253386556,157.0123073540139,75.4751971637343
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,1998,241.55540493372612,308.96978126383897,172.62968597738833
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2001,126.36388184875864,172.62628274364778,87.66355787495431
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2000,73.4092541505373,98.27336933708058,53.52664500798311
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2000,216.9399166769902,309.1088600801843,144.10767157411425
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2000,12.436852586700914,17.918361809564136,8.263381153723353
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2000,109.36984694954687,145.22915480279403,78.20307254010618
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2002,206.8010235000836,300.2608753480959,128.4091843092289
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,1999,18.256021854439087,26.828809154817392,12.13832502449449
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2003,22.326223190397744,31.194569064019397,15.548584383153125
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2001,63.844072625523,72.80472437648916,55.32639369979884
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2003,13.830604541053397,20.66115051310397,8.741261062292942
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,1992,1.3588910157828402,1.9792494241231589,0.9529390104535321
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,1994,1.192315675530183,1.5667173407342396,0.8906039667275992
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2002,199.28865960361523,272.43318765878456,135.13431243962444
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2004,71.58393388691317,97.08038822577092,48.999848056668604
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,1997,0.9087638147842058,1.1883514249541087,0.654749250026457
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,1997,1.567150737486622,1.6702401923063255,1.4668227679967072
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2002,109.72712685717056,166.41347776591329,67.78830559305334
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2005,80.9849370228718,93.74668650443074,68.21508497885237
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2002,199.48046849860052,251.09380765660487,150.52401413275996
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,1996,1.021392085900241,1.2678233695228518,0.8148686168778659
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2003,77.1419000101745,91.45400233158645,62.59845602655049
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2004,177.8194025423866,256.847872471278,119.95961151118142
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2005,98.69307106907081,135.2446604252271,68.74152227829764
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2005,189.52778606294078,275.5272918621306,111.81514942835568
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2004,190.65401948896329,258.98084682742774,135.41643319092194
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2005,85.81161610772254,117.46251116390386,59.11271665485019
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2004,10.324090047640706,14.008385030993642,7.046120716200263
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2004,88.66731991834125,115.47861638966113,63.48346252321776
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,1998,2.1013273769646292,2.220717609136925,1.968271713384222
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,1998,1.1507362600350768,1.5375518937973778,0.8127944633952591
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2003,366.70754892794645,503.06976260658587,252.96072020669916
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,1999,6.814145145721882,8.3721188502057,5.539780568158417
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2002,0.9532146556610365,1.3077384986731035,0.6896099014895593
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2006,224.27638740621035,316.0334399594781,151.27874380809126
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2000,0.7991635817001039,1.1108208536709272,0.5326351388743528
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2004,335.56104828014946,467.0910481633019,218.11175884013176
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2002,1.5948087257409909,1.6908416145535834,1.5003040113903168
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,1998,0.8316994659544181,1.1313279003850236,0.5713252041721405
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2005,58.33810759870797,67.32864457875996,50.16057110305799
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2001,0.8052335180865106,1.0943875005994808,0.5622982859147615
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2006,178.11059766793062,251.53266137253266,119.08533593490047
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,1992,1.1785509328537673,1.5374667824506054,0.8663899510517058
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2006,152.21852673089876,189.4457074637922,113.0532228646833
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2008,302.6345885136925,402.87296675500033,216.60354797455182
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2005,0.6771176592133189,0.8784558537126568,0.504108670798086
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2002,0.7716131927591099,1.0390098757364015,0.5398847279738516
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2006,92.16178929318737,131.923533271405,60.85061806345473
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,1998,0.9155147602741193,1.2419185908815809,0.6321376178234717
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2001,1.366074161285316,1.4662959063469974,1.2777211379015403
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2007,61.641636658671125,72.76853187899879,50.72381951874179
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2009,63.3527191941887,83.630278433299,45.29986643197274
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2004,0.6654703037207528,0.9387612709920987,0.4750023140420337
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2007,17.989880927981197,23.15265669141777,13.08056376926833
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2008,148.99703246891107,217.31833949075707,98.29871484217155
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2003,5.447070275219895,6.607520665774786,4.384782131200011
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2007,9.558484717316393,14.763743229816571,5.464590983767276
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,1997,1.1173528109134407,1.503126126548303,0.7947399438731627
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,1996,1.47300405287417,2.0965304059804923,0.9840877760265968
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2008,116.84353947791259,165.32098666583767,74.21427870078169
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2006,0.8712447040314104,1.170702836398919,0.6392194974990938
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2000,1.0271674755192504,1.3538026511622567,0.7504812024511396
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2008,63.660859585425285,84.71150101073664,46.729705087596955
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2009,181.34021398321872,273.66660421354044,107.34670689291531
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2007,304.8259168919716,419.3837523880284,215.92744469900336
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2002,0.9441725020889408,1.2321279212088105,0.6980135462287902
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2006,1.6897411581420385,1.8002856473052269,1.565490703527029
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2009,78.47276360431074,103.79620981469425,56.849358488724135
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2008,8.544826285881777,12.102841617901738,5.751528425358601
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2004,1.0655990685321912,1.4025972565153955,0.7776576854028547
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2006,0.6548740780392739,0.8953045458639549,0.45560270956865445
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2007,4.636574699136108,5.688866526131843,3.754683411182542
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2001,1.1027592468770027,1.516474602634641,0.7533022136975724
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2008,84.7165090405877,112.22566466869124,59.600693875354786
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2011,8.294097092356587,12.946884416997976,4.705038045210162
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2008,0.9485110527859355,1.2481106750487927,0.700965991690554
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2009,64.29236904864861,74.72106645759787,53.95091605905683
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2010,170.13423673545466,239.53739181615336,110.67974313444512
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2000,1.4589923692857534,2.056874336498917,1.0142729057113593
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2010,107.31243091122785,131.15815058970645,79.96830205586718
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2009,43.82265169519968,49.81385298746336,38.37166301360805
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2010,60.75169075724388,87.09338682600652,39.066804163010595
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2005,0.7707198141696441,1.0418382407828877,0.543890982167032
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2012,264.244636700651,362.5114496559834,181.2204186972855
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,1996,1.245567170461587,1.6936870797706274,0.9034340963280981
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2010,212.41670630299845,306.5574312560702,138.61515225675467
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2011,46.906687807510195,55.12247202906503,38.813799976433245
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2012,68.12547355968398,100.10246539159265,40.3170282260306
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2012,41.97747737581614,56.65538667146431,29.63396876514691
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2010,0.7441521349960987,1.02835637994588,0.5361859585628876
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2012,6.367712706644665,8.62102439236659,4.3664954355389085
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2004,1.5544024392917803,2.098706896131426,1.1116479863174848
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2012,80.01438891832596,103.81659104023197,58.012741767637365
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2012,0.7708923553630127,1.0192921453050556,0.5572709933307148
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2012,121.58173336171959,175.0353312835038,77.54318290049676
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2013,132.3580782909218,210.48286823329255,72.14721774045003
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2006,0.7028178231874677,0.9599374817728029,0.5113972397345404
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2008,0.5219404343795275,0.7363005720810413,0.36023586468577656
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2010,0.570284812192309,0.81023841798215,0.3880512835572597
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2013,56.30357843433748,75.55977541987718,40.48095749903666
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2008,1.3887950181298123,1.960890388690538,0.9463951752823452
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2011,12.205879341754136,16.51226737485016,8.469900533907891
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2010,1.409478639817844,1.4921059044771485,1.320948643984827
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2009,0.5670608543511774,0.7911816637298591,0.3905796498367426
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2013,39.48686819933877,55.79711359586662,27.573067827705287
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2011,237.4557014282115,323.96905785051285,171.85135751952296
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2009,0.6532111855521564,0.919589818137825,0.461841004071273
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2013,32.00327803197257,36.72966451410312,27.685429170835526
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2014,44.3690746520303,65.24951655246686,29.374527255256428
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2014,137.26174037227372,192.51513102062228,89.44652428025087
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2013,50.428757820561316,59.09310389795654,42.129143214455226
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2014,72.41706192676286,88.90939723660206,53.87295362590846
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2015,8.66684325343784,12.437009773637143,5.634713488968068
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2014,212.41220998858248,306.76591416264165,138.62001428231926
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2005,1.319862118580359,1.407894779276386,1.2296348360895168
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2017,0.45192076793862923,0.6005755753790515,0.33030482767798014
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2016,29.925016336883733,40.808529638057195,20.785542462591096
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2017,40.289277634594,55.13622057754403,27.354063054810208
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2016,60.926676952419776,87.31432428430043,40.30994513345743
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2016,241.93286914942843,331.4871362929837,164.32760334021324
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2017,28.866096287093907,39.97643917198823,19.983365242679138
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2015,6.159214608589749,9.566429656068426,3.317059310648219
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2016,130.30315608566355,189.34984889179208,82.49140476535386
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2017,95.62838720449463,151.9003033618525,51.92340396163286
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2000,1.378649956607519,1.8607253530772667,0.961239008230733
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2011,3.2056246032006137,4.004826562460439,2.5118539804444144
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2016,6.25007271901562,8.23336248224536,4.22578417099687
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2017,20.235710113809613,23.82613679572265,16.81882376320338
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2017,1.0684805798120511,1.1504750584541628,0.986982918083824
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2004,1.0694380733091435,1.4512522446797882,0.7951056457122826
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2017,0.5888130957208196,0.744381325312213,0.45039424005320744
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2013,0.5805086244000943,0.7825361216261345,0.4171927404995649
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2010,0.6321530688379611,0.871900832728577,0.45433225048735093
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2015,3.3661594082947692,4.499696968957187,2.4350143011817513
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,1991,215.05042025928662,286.59828001029786,154.53991736344346
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2014,0.5778733319137127,0.7720120220340017,0.419093937901161
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2014,1.2785240637573547,1.357446497461171,1.1949258685834612
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,1992,44.629111458929394,62.07659414032548,30.2764715173743
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,1991,16.771962606424587,25.00031414600693,10.4418241647611
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,1991,302.0329515560061,483.31131256175803,94.4373271625874
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,1993,61.91289490016903,84.3907919023388,40.716070448056854
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2012,1.183372325549097,1.7298098118317924,0.8112621292135953
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,1991,329.6918613057657,467.78973206477065,220.40810145149504
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,1992,540.9802904428685,718.3856115698126,388.73752446550833
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2017,39.26704256723702,45.952577013332075,32.251748020333224
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2016,60.24259858836702,79.98253015109141,43.63119290698323
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2014,0.5334807140961786,0.7419830166138427,0.37235169803238305
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2015,207.19459854566654,282.20914676814107,143.89813825919626
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2013,0.47554368591828033,0.6676746938923296,0.3193170976428284
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2009,1.2239524783693005,1.305273976846383,1.1428242266766504
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,1990,55.61942428073178,77.22200359618303,38.337314748440676
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2015,30.41174070367793,36.43500795209757,25.2180841431285
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2012,0.38295520498207275,0.5452633390415529,0.2660506442433582
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2008,0.8256306259427678,1.1250076231327248,0.5800879904876252
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,1991,1.2684038101146147,1.6470077722254772,0.9237279005707639
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,1993,382.77142182504707,546.5709365793116,248.94502609564742
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,1990,12.782326464298562,16.071625176418706,10.022952481484825
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,1990,143.44525075910224,176.09705977370936,112.09475991997634
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,1992,29.18175608805751,41.555214777866425,19.2697094973071
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2016,0.6862797018747304,0.9010823153452244,0.5191010521860114
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,1990,567.0756301746807,757.0805821504127,400.20110997777897
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,1991,64.53064296415957,87.86096591692971,42.73935040902165
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,1993,204.46389307294632,322.661194534671,70.9473431964877
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2016,0.3488926348069533,0.46523348182591984,0.2514605350393645
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,1993,179.33960927706394,226.88656963675277,137.19032999635596
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,1993,13.71900042638423,20.79349608132805,8.533587771097297
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2016,1.6151349146396423,2.12366556389182,1.172898923909689
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,1996,29.70530102061517,42.32895068899536,19.516991115490292
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2013,1.1070829285252117,1.1864100831349753,1.0300971767916391
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,1993,310.76943322550284,441.33001446427215,207.24507655785607
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2012,0.6405748297136681,0.8810405336248036,0.4471006475483785
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,1995,299.2125796877522,439.09972665328564,183.618063659723
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,1993,1.4018070161869094,1.825917557514493,1.0231033667919731
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,1992,137.78862795015488,166.91750451261163,109.28901339112471
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,1994,401.09102913026203,616.3269000828328,217.61363352515409
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,1994,181.29599087302438,247.10396124556564,128.24350842961164
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,1996,22.409266507786704,32.637644431194914,14.776333679507644
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,1991,1.73223574333852,2.3064849507978886,1.2534663650086109
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,1992,9.300614645329668,11.737321882184176,7.2452339084901505
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,1990,36.550781516436835,53.65879783687408,23.969052320468435
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,1994,156.33281641896397,215.6543965062763,106.74454285102479
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,1994,0.9615397934001786,1.2507005865218515,0.7083674523205173
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,1994,136.47358828479932,164.46399171012763,109.20028258419698
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,1995,229.5996704134445,314.35026293238474,157.2624704137574
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,1994,64.05639945853733,73.44050859422623,55.50464459366433
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,1991,395.8186943974616,557.9866401876393,252.6931594454418
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2014,0.5292416079123182,0.7333309809545455,0.3728742088185748
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,1995,1.4415787570197784,1.8921978957717738,1.0437917725268913
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,1995,286.3008693980865,367.7454932927252,204.24201672507337
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,1996,122.35780139438985,147.00720634259918,98.54392535963122
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,1995,176.61025187831535,258.7043610258387,110.20812164795264
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,1991,1.3797553359899426,1.8091051201218062,1.0023703905090082
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,1998,115.84905364746803,136.8687876727009,92.86798362839697
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,1995,2.097525221706409,2.224391720726411,1.9765971865438574
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,1993,1.1105752359311967,1.4649821303175237,0.8261846864267662
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,1997,368.4469824819992,518.7368035785596,243.1336947742301
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,1996,492.2324567215331,650.3810436606504,341.31163408742435
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2016,0.4960025346287473,0.6545878885409041,0.36752218782027424
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,1998,139.96088512324422,190.10538038884917,94.53432794870105
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,1998,359.1086469389374,529.6239921817362,227.65487458976168
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,1997,247.02664588500204,348.1126380789734,165.0039081782514
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,1997,132.04980796361028,174.02962545457282,93.58977969402645
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,1997,205.70490265388472,313.29373339718546,105.26322404685854
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,1995,1.1065445711121964,1.5623932251745891,0.745172137095476
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,1998,153.8267503947517,216.45290298197688,107.0623082426651
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,1996,7.168982448572497,9.191692313235436,5.4558151495118254
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,1995,1.0715506479893446,1.4448092184284635,0.7515873065545398
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,1998,62.2479626041792,70.57697851997764,54.62029490740555
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,1991,1.4796572186268453,2.084343223934946,1.036900646539596
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,1999,213.84724112001453,292.84626279974515,145.88719815777955
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,1997,12.324037280852927,17.365507507199894,8.24805455120298
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2001,367.94898009874737,506.79831245397423,241.14122318514924
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,1994,1.4787660821068365,1.9654575840314348,1.0728143544985786
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,1999,244.97221786753988,356.51590122688447,153.59816974094144
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,1999,0.8586349962428266,1.1866870189539869,0.6071426548410263
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,1997,54.38185431340326,76.30776880454349,35.32490700874612
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,1993,1.3180030896520178,1.8686346808892578,0.9140216233628534
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,1999,132.09292027548003,200.2238658087859,81.0850036070117
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,1997,0.9047157739468363,1.221614248422477,0.6415568072296497
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,1999,224.6127071887519,284.7537973202592,158.67935697374904
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2001,167.56956594574694,253.41688315635457,89.06699972045827
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2001,202.86278241573507,286.6481800920643,135.98027200112745
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2001,103.59455820893764,137.15119462272273,75.1995348884659
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,1999,0.7212676457210974,0.9780976211709124,0.49682237733949436
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2002,252.69906700696146,368.6013315838065,153.29925088180516
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2002,104.45235489353304,144.38133289051763,69.8154146817309
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2000,17.146070124855605,25.299233617075775,11.139946090502601
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2001,11.904033146570747,16.903357036491148,7.931286157863123
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,1998,0.8660390386694216,1.1676069841822274,0.6042065151077888
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,1998,1.1107433178097608,1.551067540099974,0.7616118996256376
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2002,116.96429609290672,158.22092052656848,82.50011889331537
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2000,95.5088027340332,113.85431223978708,77.80116863234787
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,1997,1.0506281248792586,1.3211991933581628,0.818245927590746
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2002,63.2915929856747,72.66915721355892,54.606316013408055
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2001,74.02539200871345,99.52000978996642,52.74914878443573
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,1993,1.183914518378806,1.5357484560918508,0.8834066155901397
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2000,439.490811408132,595.7520083683642,307.1205267470787
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,1999,2.097805230147283,2.223363944142166,1.9581003280159297
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2003,193.79678212575587,274.59407100174656,132.847240851599
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2000,23.85455631051478,33.901690858843956,15.686577610175775
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,1997,1.5249266186829824,2.2006888108225047,1.0322970005338552
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2003,0.9821933198929188,1.2864254467462743,0.732112955636328
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2003,100.74860529987109,153.8972854494405,62.125014881725065
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2000,6.716082137314208,8.31868929976868,5.3716278729173945
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2003,187.695268945952,234.49472125884807,138.09485169160695
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2005,313.50709889309655,435.5318672331014,205.56848114077846
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,1994,1.7528387547490365,1.8724988230981292,1.6453803558739015
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2005,80.96882279132137,106.46124317962864,58.66023061375673
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2002,90.50091677855795,106.42772982846637,73.95855926633824
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2003,198.35752884037592,287.93088836576203,123.04124572537853
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2005,177.23876296735583,243.90949842501456,122.08863097441217
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2004,73.29680903465868,86.24743642380315,60.51443385307199
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2001,1.0713431404842608,1.4112565998003803,0.7828435220792905
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2001,0.7620337694024397,1.0505395226923993,0.5144058369271683
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2002,0.9861608671009383,1.3381106648220142,0.7054746143661691
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2006,179.62041187331823,267.3547925111899,102.48002513845525
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2005,163.90228123418564,235.65317956634595,110.46146359632604
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,1999,1.075185067853042,1.4602646448354548,0.7512684607460649
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2001,1.4074191753492817,1.9395397286171665,0.98693035660458
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,1998,1.5321591348171366,1.6348641406308468,1.4347049342338014
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2004,22.371457144845674,30.336712810920208,15.704008739011202
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2005,9.90992412416487,13.696099208861447,6.927594354985544
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2003,0.812998633863991,1.1093777026197018,0.5796467282863561
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2004,346.32001274575634,472.4264631446132,236.5167932324557
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2006,89.29891247363636,121.85241600899748,60.58212919518682
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2006,81.65583945178523,109.87540518112598,56.87832252444173
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2002,0.748231933465244,0.990376551473915,0.5342871876450694
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2004,12.674985474839893,19.604088180899215,7.608121797831465
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2007,176.12370870738508,247.7245502598608,112.96798001265658
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2006,77.53886726630914,89.60211400571431,65.79337136892694
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2004,5.18305716847694,6.222026545886986,4.261895999038828
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2007,84.99786573519675,122.70860729867877,56.07816101254512
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2007,143.7544512438846,177.04379521282502,106.5190192564531
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,1997,1.2137976144760563,1.6052843808106683,0.8947143544648036
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2005,76.21757904148926,101.64506382763247,53.36754875440087
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2009,56.7511338059733,75.2411080659798,41.16283016087478
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2009,93.64907770431608,139.57339551459785,56.65919301761993
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2006,56.42857490019104,64.98525434599232,48.55860696610488
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2003,0.8031073937834163,1.10347937246884,0.5801705547794944
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2009,144.0000175091328,206.9559423059655,94.78090957472037
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2002,1.3711212299525117,1.4610834905566872,1.2820755702217088
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2007,229.5516605079821,321.89271924493886,157.2304796056655
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2005,1.0179948430983414,1.3593529447147363,0.7281129012372267
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2003,1.6952030210047595,1.7992551862783603,1.5874752452407905
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2008,276.7634353931885,381.6392186346077,193.60182693323998
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2009,7.934843691331387,10.957894361170277,5.402841250355417
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2005,0.6229439751332818,0.8461242475336516,0.45429937393691106
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2001,1.3877531171545352,1.8648408738929119,0.982895540645163
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2008,58.115148000254536,68.98369447243392,47.27069323917564
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2006,0.7099604651401974,0.9667766487239199,0.5015714832020441
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2005,1.5605808012668902,2.1439197874255767,1.095074228132515
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2010,71.81338715721922,95.28973823719748,53.15374907398971
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2008,16.61612788183052,21.59971320136155,12.251308187171382
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2007,0.6928045339457523,0.9495534042815952,0.4787008589542692
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2007,1.6305758617733732,1.731990845655625,1.5104915883789445
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2010,63.99336008793056,73.50230177040396,54.54029381820467
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2009,0.8151616840927806,1.1327434575535216,0.5657942689381827
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2010,38.68940899666625,43.74261424178861,33.85787454717398
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2011,163.6635178785527,228.2803680509155,106.6968303921672
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2008,4.317845830597002,5.258909278385002,3.4937787566336374
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2010,169.10342181707588,258.9647614842414,97.46090087048816
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2009,0.5241824648011109,0.7450475621893331,0.364676707433799
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2010,0.5018035677314262,0.6942361151800959,0.34577700250889437
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2010,54.37935553019395,72.73947029997366,38.45112348894368
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2006,0.6736753291390007,0.8967230048146441,0.49342348985612344
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2005,1.1088536442845263,1.5288479904088133,0.8080640668548851
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2011,97.56481382729058,122.26263048330051,72.50447429553566
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2009,83.67730788888962,111.19595907795178,59.2345104666793
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2011,54.49020922356874,78.48872671653055,34.6890470371788
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2011,204.26963146746263,295.201136006881,130.85961623402477
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2012,10.905285233087787,15.218723073248553,7.228422948504282
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2013,71.3437973655293,100.05479928929977,45.19791874979314
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2012,43.91358123084034,51.40995625567195,36.925881697495235
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2012,227.54049914947907,307.565358960085,163.06238167498114
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2009,295.0121548776612,392.08170138419405,211.47258177048036
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2013,115.80560039824326,165.45634663119088,72.92548975286375
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2007,0.6787347118067423,0.918652096620399,0.5095738237527808
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2013,38.23893577639138,52.68685466384029,26.286424147412912
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2008,8.906392769764064,14.079812703560302,4.938031503700849
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2011,0.5532136016106298,0.7784158352672872,0.37901302228121925
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2006,1.3124801264253136,1.3951430378487706,1.2207295106516551
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2012,7.144925595598063,11.216100679893946,3.9635333591194404
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2013,73.52421839365513,97.01366454303678,53.032086253818385
+Deaths,Kenya,Both,1 to 4,Lower respiratory infections,Rate,2014,45.18939901653632,53.49634520348354,36.93121949082835
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2012,3.062927747961471,3.8386795255154578,2.36361229830199
+Deaths,Ethiopia,Both,1 to 4,Lower respiratory infections,Rate,2015,64.1169485596043,79.62504843162574,46.783378936908186
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2009,0.9301257903861778,1.2490876517227336,0.6805624755158308
+Deaths,South Africa,Both,1 to 4,Lower respiratory infections,Rate,2014,30.04194375935712,34.67217463222143,25.984002232604677
+Deaths,Sudan,Both,1 to 4,Lower respiratory infections,Rate,2015,40.05473486744505,59.1327036842136,25.999075554606492
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2010,0.6425911901963807,0.8735944728370475,0.45435155664337507
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2013,263.6220727404202,360.4429388575814,178.9086457620604
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2010,1.1340433564735843,1.211051633232177,1.0519564614332086
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2011,1.3970471089848355,1.4755568110770743,1.3064866849971795
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2011,0.6106119903245529,0.8279344354645318,0.44352009203321974
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2007,0.8748826777385146,1.1807222648612985,0.6327553019475365
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2013,5.883774485499546,7.918753056839171,3.963779446465189
+Deaths,Myanmar,Both,1 to 4,Lower respiratory infections,Rate,2014,36.50344363380208,50.666236373013916,25.329564621265597
+Deaths,Bangladesh,Both,1 to 4,Lower respiratory infections,Rate,2017,27.534776177659417,37.055369107704784,19.261342689664673
+Deaths,Somalia,Both,1 to 4,Lower respiratory infections,Rate,2014,124.45323043072887,197.5433975409883,67.72337885242003
+Deaths,South Sudan,Both,1 to 4,Lower respiratory infections,Rate,2015,226.31643336123793,320.7513890250339,147.9213988445762
+Deaths,Switzerland,Both,1 to 4,Lower respiratory infections,Rate,2014,0.49866695588061466,0.6791452093467241,0.34190719197252856
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2017,0.4858350299152554,0.6306117528815813,0.3636679043024569
+Deaths,Mali,Both,1 to 4,Lower respiratory infections,Rate,2017,122.62105176940771,180.14732795471645,76.70447119562408
+Deaths,Netherlands,Both,1 to 4,Lower respiratory infections,Rate,2013,0.5564620948905816,0.7667362147950052,0.3864077904766649
+Deaths,Thailand,Both,1 to 4,Lower respiratory infections,Rate,2017,5.787114713010322,7.966993092012642,3.1256582498641863
+Deaths,India,Both,1 to 4,Lower respiratory infections,Rate,2016,26.52271621721026,32.058441155849536,21.757898212666532
+Deaths,Zimbabwe,Both,1 to 4,Lower respiratory infections,Rate,2017,57.09090497728931,77.4415091038493,41.28759511710594
+Deaths,France,Both,1 to 4,Lower respiratory infections,Rate,2014,0.5873604947171122,0.7956294323102645,0.4208210975509844
+Deaths,Nigeria,Both,1 to 4,Lower respiratory infections,Rate,2016,208.86739540266512,285.2555067597536,142.91519093399305
+Deaths,Morocco,Both,1 to 4,Lower respiratory infections,Rate,2016,5.678770032575423,8.889348698813585,3.1482186535816044
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2009,1.4097798671539097,2.0057243553289537,0.9570819080809627
+Deaths,Vietnam,Both,1 to 4,Lower respiratory infections,Rate,2016,8.03350318157551,11.477123799705222,5.234887927721882
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2017,0.3230244030869068,0.43368364601718995,0.2352846007330687
+Deaths,Democratic Republic of the Congo,Both,1 to 4,Lower respiratory infections,Rate,2015,129.46965806509408,181.55533427680783,82.90027021306977
+Deaths,Denmark,Both,1 to 4,Lower respiratory infections,Rate,2015,0.4886806571520916,0.6697098881305108,0.3417270296227291
+Deaths,Austria,Both,1 to 4,Lower respiratory infections,Rate,2013,0.35496901128576,0.5032913659792608,0.24910291087337283
+Deaths,Chad,Both,1 to 4,Lower respiratory infections,Rate,2017,231.91860545976,316.4273184747625,157.07169147117236
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2017,0.6454229623312766,0.8423984469970993,0.48435127988852683
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2017,1.4114913875959476,1.8883193920529548,1.0442374330124935
+Deaths,Afghanistan,Both,1 to 4,Lower respiratory infections,Rate,2017,58.70982722394623,83.2143495886527,38.930906026486426
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2011,0.6970649750631546,0.9498266233487062,0.49519018528734216
+Deaths,Ukraine,Both,1 to 4,Lower respiratory infections,Rate,2016,3.2597741214778226,4.328738782287135,2.3156105363128883
+Deaths,United States,Both,1 to 4,Lower respiratory infections,Rate,2014,1.105437161168775,1.1823492888541658,1.025944313870162
+Deaths,Germany,Both,1 to 4,Lower respiratory infections,Rate,2013,0.7629482260574125,0.9715239545793228,0.5806307241746506
+Deaths,Italy,Both,1 to 4,Lower respiratory infections,Rate,2015,0.5437108715594833,0.7432524892018472,0.38516124606052615
+Deaths,England,Both,1 to 4,Lower respiratory infections,Rate,2015,1.2820783380533187,1.3626592408143365,1.197525691187378
+Deaths,Pakistan,Both,1 to 4,Lower respiratory infections,Rate,2014,54.19830829686816,73.47900963909377,38.65131617996736
+Deaths,Greece,Both,1 to 4,Lower respiratory infections,Rate,2013,1.2628031134193725,1.8046021525933633,0.8850325776755653
+Deaths,Spain,Both,1 to 4,Lower respiratory infections,Rate,2015,0.5324377955639528,0.7057090660842055,0.39019658190030654

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3 Data transformation | Mortality Analysis</title>
+  <meta name="description" content="3 Data transformation | Mortality Analysis" />
+  <meta name="generator" content="bookdown 0.16 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3 Data transformation | Mortality Analysis" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3 Data transformation | Mortality Analysis" />
+  
+  
+  
+
+<meta name="author" content="Prasham Sheth | Pritam Biswas | Manas Dresswala | Swarna Bharati Mantena" />
+
+
+<meta name="date" content="2019-12-12" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="data-and-information-sources.html"/>
+<link rel="next" href="cause-vs-age-sex.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<script src="libs/plotly-binding-4.9.0/plotly.js"></script>
+<script src="libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+<link href="libs/plotly-htmlwidgets-css-1.46.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="libs/plotly-main-1.46.1/plotly-latest.min.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Mortality Analysis</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="data-and-information-sources.html"><a href="data-and-information-sources.html"><i class="fa fa-check"></i><b>2</b> Data and Information sources</a></li>
+<li class="chapter" data-level="3" data-path="data-transformation.html"><a href="data-transformation.html"><i class="fa fa-check"></i><b>3</b> Data transformation</a></li>
+<li class="chapter" data-level="4" data-path="cause-vs-age-sex.html"><a href="cause-vs-age-sex.html"><i class="fa fa-check"></i><b>4</b> Cause vs (Age &amp; Sex)</a></li>
+<li class="chapter" data-level="5" data-path="hale.html"><a href="hale.html"><i class="fa fa-check"></i><b>5</b> HALE</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="hale.html"><a href="hale.html#warning-in-rcolorbrewerbrewer.paln-set2-minimal-value-for-n-is-3-returning-requested-palette-with-3-different-levels"><i class="fa fa-check"></i><b>5.1</b> Warning in RColorBrewer::brewer.pal(N, “Set2”): minimal value for n is 3, returning requested palette with 3 different levels</a></li>
+<li class="chapter" data-level="5.2" data-path="hale.html"><a href="hale.html#warning-in-rcolorbrewerbrewer.paln-set2-minimal-value-for-n-is-3-returning-requested-palette-with-3-different-levels-1"><i class="fa fa-check"></i><b>5.2</b> Warning in RColorBrewer::brewer.pal(N, “Set2”): minimal value for n is 3, returning requested palette with 3 different levels</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="interactive-component.html"><a href="interactive-component.html"><i class="fa fa-check"></i><b>6</b> Interactive component</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Mortality Analysis</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="data-transformation" class="section level1">
+<h1 number="3"><span class="header-section-number">3</span> Data transformation</h1>
+
+<p>#Missing Data</p>
+<p>I was reading this book - Enlightenment Now by Steven Pinker and came across this chapter on Health and mortality throughout the world. It had pretty interesting graphs depicting that the overall health of the world is becoming better and the people are living for a longer period of time.</p>
+<p>While working on this project, I opened this book again and read all the sources given under the graphs. I came across this website here - <a href="http://mortality.org" class="uri">http://mortality.org</a> and decided to use the data given here for understanding the number of deaths throughout the world.</p>
+<p>There were two main issues we faced here, firstly the data was not in one file, but it was spread across different text files. Each document had data about only one country. So we had to read the files seperately and then combine them into one database. Another issue was that we got data for only 41 countries here. Nevertheless we realised that this was good enough data to work with.</p>
+<p>Before we start working on the data we had to do a lot of data cleaning as mentioned earlier.
+After we parsed each file separately and combined it into one data, we also plotted a graph to do some missing data analysis.</p>
+<p>We realised that we have data on 41 countries acorss 268 years, but all the countries did not have data for all the years.</p>
+<p><img src="finalproj_files/figure-html/unnamed-chunk-2-1.png" width="672" /><img src="finalproj_files/figure-html/unnamed-chunk-2-2.png" width="672" /><img src="finalproj_files/figure-html/unnamed-chunk-2-3.png" width="672" /></p>
+<p>We can clearly see in the above graphs that most of the data relating to the countries is actually missing.</p>
+<p>One pattern that we noticed here is that there is more data on developed countries like the European countries, in comparison to the still developing countries.</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="data-and-information-sources.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="cause-vs-age-sex.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/Prasham8897/Mortality-Analysis/edit/master/03-cleaning.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/Prasham8897/Mortality-Analysis/blob/master/03-cleaning.Rmd",
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

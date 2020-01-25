@@ -1,0 +1,17 @@
+# Conclusion
+
+<p>
+The graphs and information helped us answer the questions we were most curious about. The previous sections in the bookdown mentions a detailed summary of each of the graphs included. \
+We could understand the variation in child mortality, number of deaths across the world, various causes of death, number of deaths in different age and sex groups. 
+</p>
+
+<h3>Future Work</h3>
+<p>
+There are various ways in which people might want to continue to work on the mortality data based on their questions/requirements. In case someone is curious to know more about the information, they can check the avaiability of data online and proceed by working on the data like we did. 
+</p>
+
+
+<h3>NOTE</h3>
+<p>
+Thank you for checking out our bookdown. We hope you like it!
+</p>
